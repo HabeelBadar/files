@@ -1,0 +1,169 @@
+[5768:20496:0925/194154.316:WARNING:chrome\browser\signin\account_consistency_mode_manager.cc:74] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[5768:20496:0925/194155.290:INFO:CONSOLE:29] "[spicetifyWrapper] Waiting for required webpack modules to load", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.637:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: UserAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.637:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ProductStateAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: AuthorizationAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: LocalStorageAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: RemoteConfigDebugAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: RecentsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ContextualShuffleAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: YourLibraryTagsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: UpdateAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: NativeAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ZoomAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PubSubAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlaylistResyncAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ConnectAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ConnectDiscoveryAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ConnectTransferAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ConnectDeviceManagementAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ConnectRestrictionsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ConnectRestrictionStateAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ConnectDevicesAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.641:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: SmartShuffleEligibilityAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlayerAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: StandalonePlayerCoordinatorAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ShuffleAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlaybackAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: FocusMainWindowAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: OfflineAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: LibraryAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: RootlistAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlaylistAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlaylistPermissionsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ListPlatformAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: CurationAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlayabilityAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ShowAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: AudiobookCappingAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ReportAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: LocalFilesAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlayHistoryAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ControlMessageAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ClipboardAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: FollowAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PrivateSessionAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ResumptionProgressAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: RecentlyPlayedAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: AssistedCurationAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ActionStoreAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: UserCommentsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: VideoAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: SocialConnectAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: LifecycleAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: OSNotificationsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PlaylistMixingAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: MidiAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: FeedbackAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: DeepLinkAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: DesktopLogsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.642:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ExclusiveModeAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.643:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: ForceVolumeAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.643:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PromptedPlaylistsAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.644:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: SocialPromptingAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.644:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: SuperConnectAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.644:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: StudioInstallerAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.644:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: SandboxSetupAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.644:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: AgentTimelineAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.644:INFO:CONSOLE:29] "[spicetifyWrapper] Resolved PlatformAPI from Registry: PermissionAPI", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.777:INFO:CONSOLE:29] "[spicetifyWrapper] All required webpack modules loaded", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.983:INFO:CONSOLE:29] "Initializing Spicetify Marketplace v1.0.11", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194155.985:INFO:CONSOLE:29] "Preloading extensions and themes...", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.352:INFO:CONSOLE:29] "Loaded Marketplace extension", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.352:INFO:CONSOLE:29] "Initializing extension:  [object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.353:INFO:CONSOLE:29] "Initializing extension:  [object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.354:INFO:CONSOLE:29] "Initializing theme:  [object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.354:INFO:CONSOLE:29] "Parsing CSS:  https://spicetify-lucid.sanooj.uk/spice/user.css", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.364:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.365:INFO:CONSOLE:29] "Parsed 100/146 themes", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.372:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.372:INFO:CONSOLE:29] "Parsed 100/403 extensions", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.386:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.386:INFO:CONSOLE:29] "Parsed 56/56 apps", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.386:INFO:CONSOLE:29] "No more app results", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.619:INFO:CONSOLE:29] "created authenticated browser transport", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.624:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.624:INFO:CONSOLE:29] "Parsed 200/146 themes", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.624:INFO:CONSOLE:29] "No more theme results", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.627:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.627:INFO:CONSOLE:29] "Parsed 200/403 extensions", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.736:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.736:INFO:CONSOLE:29] "Parsed 300/403 extensions", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.852:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194156.852:INFO:CONSOLE:29] "Parsed 400/403 extensions", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194157.037:INFO:CONSOLE:29] "[object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194157.037:INFO:CONSOLE:29] "Parsed 500/403 extensions", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194157.037:INFO:CONSOLE:29] "No more extension results", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194158.680:INFO:CONSOLE:29] "[32mprovider:transport[0m resolve error [object Object] [object Object]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194158.918:INFO:CONSOLE:29] "%c[spicylyrics:extension] %cv6.3.20 %cinitialized color: #1DB954; font-weight: bold color: #888 color: unset", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194159.278:INFO:CONSOLE:29] "%c[lucid:theme] %cv0.0.1 %cinitialized color: #1DB954; font-weight: bold color: #888 color: unset", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194159.301:INFO:CONSOLE:29] "[Lucid] Color Cache -> Miss: #1ed760-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194159.306:INFO:CONSOLE:29] "[Lucid] Color Cache -> Stored: #1ed760-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194159.306:INFO:CONSOLE:29] "[Lucid] setColors -> Applied CSS for color: #1ed760, mode: dynamic, scheme: tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194159.308:INFO:CONSOLE:29] "No valid type or ID found in pathname: /", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194201.434:INFO:CONSOLE:0] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.spikerko.org/spicy-lyrics/LyricsBold.woff2", source: https://xpui.app.spotify.com/index.html (0)
+[5768:20496:0925/194201.434:INFO:CONSOLE:0] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.spikerko.org/spicy-lyrics/LyricsSemibold.woff2", source: https://xpui.app.spotify.com/index.html (0)
+[5768:20496:0925/194201.434:INFO:CONSOLE:0] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.spikerko.org/spicy-lyrics/LyricsMedium.woff2", source: https://xpui.app.spotify.com/index.html (0)
+[5768:20496:0925/194201.434:INFO:CONSOLE:0] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.spikerko.org/spicy-lyrics/LyricsRegular.woff2", source: https://xpui.app.spotify.com/index.html (0)
+[5768:20496:0925/194202.456:INFO:CONSOLE:0] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.spikerko.org/Vazirmatn/Vazirmatn-Regular.ttf", source: https://xpui.app.spotify.com/index.html (0)
+[5768:20496:0925/194205.363:INFO:CONSOLE:29] "[Lucid] Color Cache -> Miss: #305890-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194205.364:INFO:CONSOLE:29] "[Lucid] Color Cache -> Stored: #305890-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194205.364:INFO:CONSOLE:29] "[Lucid] setColors -> Applied CSS for color: #305890, mode: dynamic, scheme: tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194206.101:INFO:CONSOLE:29] "Uncaught (in promise) Error: POST request to sp://messages/v1/container/control request failed with error code -1 (Resolver not found!)", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194206.116:INFO:CONSOLE:29] "Uncaught (in promise) Error: POST request to sp://messages/v1/container/control request failed with error code -1 (Resolver not found!)", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194212.936:INFO:CONSOLE:29] "[Lucid] Color Cache -> Miss: #488038-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194212.944:INFO:CONSOLE:29] "[Lucid] Color Cache -> Stored: #488038-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194212.944:INFO:CONSOLE:29] "[Lucid] Color Cache -> Miss: #F87098-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194212.947:INFO:CONSOLE:29] "[Lucid] Color Cache -> Stored: #F87098-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194212.948:INFO:CONSOLE:29] "[Lucid] Color Cache -> Miss: #481800-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194212.950:INFO:CONSOLE:29] "[Lucid] Color Cache -> Stored: #481800-dark-tint-tonalSpot", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194215.079:INFO:CONSOLE:29] "Invalid Marketplace manifest from Delusoire/spicetify-extensions [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "description"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194215.080:INFO:CONSOLE:29] "Invalid Marketplace manifest from Delusoire/spicetify-extensions [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "description"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194215.184:INFO:CONSOLE:29] "Invalid Marketplace manifest from vitorhugo8899o-lgtm/spicetify-music-stats [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "description"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194215.442:INFO:CONSOLE:29] "Invalid Marketplace manifest from Rathtakrit/spicetify-focus-flow [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "description"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+]", source: https://xpui.app.spotify.com/xpui-modules.js (29)
+[5768:20496:0925/194217.596:INFO:CONSOLE:29] "Invalid Marketplace manifest from attilar2056/Spotify_Gabilan_StreamDock [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "usercss"
+    ],
+    "message": "Invalid input: expected string, received boolean"
+  }
+]", source: https://xpui.app.spotify.com/xpui-modules.js (29)

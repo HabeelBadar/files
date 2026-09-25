@@ -1,0 +1,1458 @@
+14:41:54.254 I [/f:242                          ] Starting step: cef_init
+14:41:54.342 I [/f:261                          ] Ending step: cef_init
+14:41:54.344 I [/f:242                          ] Starting step: browser_init
+14:41:54.428 I [/f:160                          ] BLE Advertiser initialized successfully.
+14:41:54.457 I [/f:261                          ] Ending step: browser_init
+14:41:54.457 I [/f:242                          ] Starting step: core_init
+14:41:54.458 I [/f:158                          ] Access allowance changed from online: 0 stream: 0, sync: 0, persistent conn: 0 to online: 1 stream: 1, sync: 0, persistent conn: 1
+14:41:54.459 I [/f:49                           ] Connectivity policy is initially allow_all
+14:41:54.459 I [/f:51                           ] Connection type is initially unknown
+14:41:54.459 I [/f:68                           ] Enabling all persistent connections
+14:41:54.459 I [/f:139                          ] Open storage index header at C:\Users\AMD RYZEN 5\AppData\Local\Spotify\Storage\index.dat
+14:41:54.460 I [/f:22                           ] Opened storage index at C:\Users\AMD RYZEN 5\AppData\Local\Spotify\Storage OK
+14:41:54.461 I [/f:261                          ] Ending step: core_init
+14:41:54.461 I [/f:242                          ] Starting step: autologin
+14:41:54.462 I [/f:809                          ] Login succeeded: method: auto_login, use_dpop: true
+14:41:54.462 I [/f:242                          ] Starting step: core_login
+14:41:54.466 I [/f:288                          ] Reachability changed from unknown (IP [], roaming false) to unknown (IP [26.208.148.58, 192.168.1.6, 192.168.1.7, 192.168.23.1, 192.168.133.1, 2001:0:14c9:d804:24cf:1408:d8dd:d3cc, fdfd::1ad0:943a, fe80::24cf:1408:d8dd:d3cc%16, fe80::6cab:56c8:3492:1c03%10, fe80::a64d:f862:c14c:fdd5%17, fe80::ab8b:6ebe:5029:bde1%12, fe80::f877:617a:51f7:a5fc%21, fe80::fb92:9458:2996:f1d7%4], roaming false)
+14:41:54.467 I [/f:173                          ] Scheduling emission of signal.
+14:41:54.468 I [/f:65                           ] pubsub_setup_desktop: using generic websocket (v2)
+14:41:54.468 I [/f:149                          ] configureCurloptCainfo: Using default path.
+14:41:54.468 I [/f:169                          ] configureCurloptCapath: Using default path.
+14:41:54.470 I [/f:180                          ] websocket: connectivity changed: 0
+14:41:54.470 I [/f:165                          ] websocket: disconnecting
+14:41:54.470 I [/f:94                           ] DSP CPU features: SSE1, SSE2, SSE3, AVX1, AVX2, FMA
+14:41:54.471 I [/f:242                          ] Starting step: cef_context_init
+14:41:54.494 I [/f:261                          ] Ending step: cef_context_init
+14:41:54.527 I [/f:35                           ] Using Hermes log transport
+14:41:54.527 I [/f:113                          ] Logger is now using a valid transport!
+14:41:54.527 I [/f:113                          ] Logger is now using a valid transport!
+14:41:54.574 I [/f:85                           ] GetAdapterConnectionType: windows medium: 16
+14:41:54.601 E [/f:53                           ] no element found at line 1, column 0
+14:41:54.601 I [/f:85                           ] GetAdapterConnectionType: windows medium: 0
+14:41:54.605 I [/f:517                          ] Local device coordinator enabled write resources & delta updates
+14:41:54.605 I [/f:168                          ] Device coordinator was set offline
+14:41:54.605 5 [/f:206                          ] [spotify:user:31dkbvro3gx6k4xuf4davdm3ka4y:rootlist] Creating context
+14:41:54.606 I [/f:116                          ] AdDetection: download_time_hashing_mode=0
+14:41:54.608 D [/f:29                           ] Logging level was changed from 4 to 6
+14:41:54.609 D [/f:250                          ] Tier1LocalVerificationListener::enableLocalSocket: listening on port 56503
+14:41:54.626 D [/f:166                          ] ArtisanalCast::Coordinator -> created (persistent=0 app_types=0 language=)
+14:41:54.626 D [/f:149                          ] ArtisanalCast::Router -> created (enabled=0 persistent=0)
+14:41:54.626 D [/f:153                          ] ArtisanalCast::Router -> initialize callbacks
+14:41:54.626 D [/f:456                          ] CastApiImpl::addOnDeviceLogout
+14:41:54.627 D [/f:51                           ] LocalDeviceReporter not starting - feature disabled or not needed
+14:41:54.627 D [/f:173                          ] DeviceCapabilityMap::fetchCapabilities Fetching from DeviceCapabilities
+14:41:54.630 I [/f:30                           ] WASAPI device id "{0.0.0.00000000}.{07a42c6d-a111-4b42-a295-36999ebdcefc}" name "Speakers (Steam Streaming Speakers)"
+14:41:54.630 I [/f:30                           ] WASAPI device id "{0.0.0.00000000}.{648beb00-bd96-410e-b1bd-3f43ab2ea0f7}" name "HP P24h G5 (NVIDIA High Definition Audio)"
+14:41:54.630 I [/f:30                           ] WASAPI device id "{0.0.0.00000000}.{6756b8b3-4fdb-469b-88fd-54f3b6eb16f0}" name "Virtual Speakers (Virtual Speakers for AudioRelay)"
+14:41:54.630 I [/f:30                           ] WASAPI device id "{0.0.0.00000000}.{7ab1c561-2002-466d-af63-e69fb9afac8a}" name "Realtek Digital Output (Realtek(R) Audio)"
+14:41:54.630 I [/f:30                           ] WASAPI device id "{0.0.0.00000000}.{85a72c6d-2c1d-4ed9-8338-b2db800f7eb6}" name "Realtek HD Audio 2nd output (Realtek(R) Audio)"
+14:41:54.630 I [/f:30                           ] WASAPI device id "{0.0.0.00000000}.{f5abf50a-2cb4-4cf4-98a6-d6a6c9c7600c}" name "FxSound Speakers (FxSound Audio Enhancer)"
+14:41:54.630 I [/f:179                          ] Audio device setting: 
+14:41:54.630 D [/f:26                           ] clear_session_on_connection_lost_timeout = 10s
+14:41:54.630 D [/f:31                           ] disable_jam_mode_when_session_timeout = true
+14:41:54.630 D [/f:34                           ] filter_session_updates = true
+14:41:54.630 D [/f:39                           ] clear_context_player_restrictions_on_session_end = false
+14:41:54.630 D [/f:44                           ] clear_list_player_restrictions_on_session_end = false
+14:41:54.631 I [/f:192                          ] ContextPlayer RoutingTrackPlayer: PauseOrAwaitPause not active)
+14:41:54.631 I [/f:14                           ] AutomixBundleImpl locale: en
+14:41:54.649 I [/f:39                           ] PrefetchPlayerSetupImpl - using ContextPlayerPrefetcher
+14:41:54.691 I [/f:68                           ] Track offlining: 0 tracks offlined
+14:41:54.691 I [/f:440                          ] ConnectManager::start
+14:41:54.691 D [/f:452                          ] Started before online, not sending putstate
+14:41:54.691 D [/f:74                           ] Refreshing Jam session from /current on startup
+14:41:54.691 D [/f:121                          ] Requesting current Jam session from /current
+14:41:54.693 I [/f:242                          ] Starting step: login_subscribers
+14:41:54.693 I [/f:352                          ] Signing messages verification: ON
+14:41:54.726 I [/f:261                          ] Ending step: login_subscribers
+14:41:54.726 I [/f:261                          ] Ending step: core_login
+14:41:54.726 I [/f:261                          ] Ending step: autologin
+14:41:54.726 I [/f:242                          ] Starting step: main_view_init
+14:41:54.727 I [/f:165                          ] Emitting signal.
+14:41:54.742 I [/f:180                          ] websocket: connectivity changed: 0
+14:41:54.742 I [/f:165                          ] websocket: disconnecting
+14:41:54.742 I [/f:168                          ] Device coordinator was set offline
+14:41:54.742 D [/f:250                          ] Tier1LocalVerificationListener::enableLocalSocket: listening on port 53574
+14:41:54.758 D [/f:1034                         ] Restoring dial devices from prefs []
+14:41:54.758 D [/f:962                          ] ConnectDevicesImpl::performDiscovery - can_discover: 1
+14:41:54.758 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.758 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.759 I [/f:601                          ] Updated connection type from -1 to -1
+14:41:54.762 I [/f:288                          ] Reachability changed from unknown (IP [26.208.148.58, 192.168.1.6, 192.168.1.7, 192.168.23.1, 192.168.133.1, 2001:0:14c9:d804:24cf:1408:d8dd:d3cc, fdfd::1ad0:943a, fe80::24cf:1408:d8dd:d3cc%16, fe80::6cab:56c8:3492:1c03%10, fe80::a64d:f862:c14c:fdd5%17, fe80::ab8b:6ebe:5029:bde1%12, fe80::f877:617a:51f7:a5fc%21, fe80::fb92:9458:2996:f1d7%4], roaming false) to ethernet (IP [26.208.148.58, 192.168.1.6, 192.168.1.7, 192.168.23.1, 192.168.133.1, 2001:0:14c9:d804:24cf:1408:d8dd:d3cc, fdfd::1ad0:943a, fe80::24cf:1408:d8dd:d3cc%16, fe80::6cab:56c8:3492:1c03%10, fe80::a64d:f862:c14c:fdd5%17, fe80::ab8b:6ebe:5029:bde1%12, fe80::f877:617a:51f7:a5fc%21, fe80::fb92:9458:2996:f1d7%4], roaming false)
+14:41:54.762 I [/f:158                          ] Access allowance changed from online: 1 stream: 1, sync: 0, persistent conn: 1 to online: 1 stream: 1, sync: 1, persistent conn: 1
+14:41:54.762 I [/f:173                          ] Scheduling emission of signal.
+14:41:54.788 I [/f:336                          ] collection collection: Delta required
+14:41:54.788 I [/f:747                          ] collection collection: Starting delta sync
+14:41:54.789 I [/f:336                          ] collection ban: Delta required
+14:41:54.789 I [/f:747                          ] collection ban: Starting delta sync
+14:41:54.789 I [/f:336                          ] collection artistban: Delta required
+14:41:54.789 I [/f:747                          ] collection artistban: Starting delta sync
+14:41:54.789 I [/f:336                          ] collection playcontextbans: Delta required
+14:41:54.789 I [/f:747                          ] collection playcontextbans: Starting delta sync
+14:41:54.789 I [/f:336                          ] collection artist: Delta required
+14:41:54.789 I [/f:747                          ] collection artist: Starting delta sync
+14:41:54.789 I [/f:336                          ] collection show: Delta required
+14:41:54.789 I [/f:747                          ] collection show: Starting delta sync
+14:41:54.789 5 [/f:206                          ] [spotify:playlist:37i9dQZF1FgnTBfUlzkeKt] Creating context
+14:41:54.790 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1FgnTBfUlzkeKt)
+14:41:54.790 5 [/f:206                          ] [spotify:playlist:37i9dQZF1F5p3rmiWPIYgZ] Creating context
+14:41:54.790 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1F5p3rmiWPIYgZ)
+14:41:54.792 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EpEqmOPnSJFJn] Creating context
+14:41:54.792 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EpEqmOPnSJFJn] Creating context
+14:41:54.793 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EpEqmOPnSJFJn)
+14:41:54.796 I [/f:205                          ] RoutingTrackPlayer start
+14:41:54.796 I [/f:229                          ] RoutingTrackPlayer stop current due to new player
+14:41:54.796 I [/f:317                          ] AudioTrackPlayer - start command recieved
+14:41:54.796 I [/f:433                          ] RoutingTrackPlayer: stopSuspendedPlayers, reason: EndPlay, feature: playlist
+14:41:54.796 I [/f:1600                         ] playPendingTrack storing last_start_reason: appload
+14:41:54.796 W [/f:1317                         ] closeAudioSession not closed due to mismatching playback ID's (expected -, got -)
+14:41:54.796 I [/f:1693                         ] AudioTrackPlayer: playing current track. Start Reason: "appload", Track URI: spotify:track:7JvmJDDMZMvWaWARsWK9Da
+14:41:54.797 I [/f:996                          ] Open playback of track (playback_id 77a00fa9d19b42357d0608c91e87b3d2, parent_playback_id 00000000000000000000000000000000)
+14:41:54.797 I [/f:997                          ]     start_reason: appload
+14:41:54.797 I [/f:998                          ]     renderer_source: start-> play next track -> play pending track (no errors) -> play current track
+14:41:54.797 I [/f:419                          ]     Creating track player for track (playback_id 77a00fa9d19b42357d0608c91e87b3d2)
+14:41:54.797 I [/f:420                          ]         track_uri: spotify:track:7JvmJDDMZMvWaWARsWK9Da
+14:41:54.797 I [/f:421                          ]         ad: no
+14:41:54.797 I [/f:422                          ]         speed: 1.000000
+14:41:54.797 I [/f:423                          ]         normalization: track
+14:41:54.797 I [/f:424                          ]         stream_type: default
+14:41:54.797 I [/f:425                          ]         urgency: paused
+14:41:54.797 I [/f:429                          ]         user_action_at: <not set>
+14:41:54.797 I [/f:431                          ]         track_select_flag: 0
+14:41:54.797 I [/f:433                          ]         start_position: 127073 ms
+14:41:54.797 I [/f:30                           ] Create GainCalculator with loudness: -9.148343dB, true peak: -9.148343dB, is_speech: false
+14:41:54.797 I [/f:108                          ] karaoke: Disabled
+14:41:54.798 I [/f:135                          ] FileStreamer file average bitrate: 160000
+14:41:54.798 I [/f:136                          ] FileStreamer downgrade bandwidth factor: 2.000000
+14:41:54.798 I [/f:491                          ]     Open track player (playback_id 77a00fa9d19b42357d0608c91e87b3d2)
+14:41:54.798 I [/f:492                          ]         position: 127073 ms
+14:41:54.798 I [/f:493                          ]         paused: true
+14:41:54.798 I [/f:494                          ]         transition: none
+14:41:54.798 I [/f:1530                         ] spotify::audio_track_player::AudioSessionImpl::getStreamReportingHolderToResumeWith - nothing to resume
+14:41:54.798 I [/f:627                          ] spotify::audio_track_player::AudioSessionImpl::openTrackPlayer - did receive StreamReportingHolder to resume with: FALSE
+14:41:54.798 I [/f:175                          ] Close reason endplay (new context) => resetting timeline
+14:41:54.798 I [/f:215                          ] Timeline attacher (000001EC66471010) adding placeholder to MediaPlayer
+14:41:54.798 I [/f:216                          ]     prev transition_out: 
+14:41:54.798 I [/f:217                          ]     curr transition_in: none
+14:41:54.798 I [/f:218                          ]     audio_start: 0
+14:41:54.798 I [/f:647                          ] spotify::audio_track_player::AudioSessionImpl::openTrackPlayer - skip seek since start_position: 127073 and current_position: 127073 (set in prepare())
+14:41:54.798 I [/f:2178                         ] current track is not ad, resetting last_start_reason
+14:41:54.799 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.799 I [/f:1452                         ] Setting playback speed to 100 percent (playback_id 77a00fa9d19b42357d0608c91e87b3d2) from 100 percent
+14:41:54.800 I [/f:1452                         ] Setting playback speed to 100 percent (playback_id 77a00fa9d19b42357d0608c91e87b3d2) from 100 percent
+14:41:54.800 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.800 I [/f:336                          ] collection prerelease: Delta required
+14:41:54.800 I [/f:747                          ] collection prerelease: Starting delta sync
+14:41:54.807 I [/f:2769                         ] Update! reason: initial-update, flags: 0x0f
+14:41:54.807 I [/f:4065                         ] == Offline Report ==
+14:41:54.807 I [/f:4066                         ] change_reason: startup-report
+14:41:54.807 I [/f:4067                         ] num_downloaded_tracks: 0
+14:41:54.807 I [/f:4068                         ] total_num_tracks: 0
+14:41:54.807 I [/f:4069                         ] num_downloaded_episodes: 0
+14:41:54.807 I [/f:4070                         ] total_num_episodes: 0
+14:41:54.807 I [/f:4071                         ] track_limit: 0
+14:41:54.807 I [/f:4072                         ] track_expiry: 2592000
+14:41:54.807 I [/f:4073                         ] episode_limit: 0
+14:41:54.807 I [/f:4074                         ] episode_expiry: 2592000
+14:41:54.807 I [/f:4075                         ] offline_keys: 0
+14:41:54.808 I [/f:4076                         ] cached_keys: 0
+14:41:54.808 I [/f:4077                         ] total_num_links: 0
+14:41:54.808 I [/f:4085                         ] schedule_stats_map: 'log-report,8': 1
+14:41:54.808 I [/f:4085                         ] schedule_stats_map: 'initial-update,15': 1
+14:41:54.808 I [/f:4088                         ] update_stats_map: 'initial-update,15': 1
+14:41:54.808 I [/f:4090                         ] num_update_all_lists: 0
+14:41:54.808 I [/f:4091                         ] ====================
+14:41:54.818 I [/f:165                          ] Emitting signal.
+14:41:54.818 I [/f:104                          ] Connection type changed from unknown to ethernet
+14:41:54.818 I [/f:68                           ] Enabling all persistent connections
+14:41:54.818 I [/f:134                          ] Will reconnect to AP (not forced)
+14:41:54.835 I [/f:180                          ] websocket: connectivity changed: 1
+14:41:54.835 I [/f:3209                         ] went online: cache key timeout reset (was timed out: 1)
+14:41:54.835 I [/f:168                          ] Device coordinator was set online
+14:41:54.835 I [/f:3294                         ] sync level updated: none -> keyless. (online: 1 connection_allows_offlining: 1 has_device_token: 0 allow_spotify_tracks: 0)
+14:41:54.836 D [/f:188                          ] Tier1LocalVerificationListener::startAccept: error: The I/O operation has been aborted because of either a thread exit or an application request.
+14:41:54.836 D [/f:250                          ] Tier1LocalVerificationListener::enableLocalSocket: listening on port 61687
+14:41:54.855 D [/f:1034                         ] Restoring dial devices from prefs []
+14:41:54.855 D [/f:962                          ] ConnectDevicesImpl::performDiscovery - can_discover: 1
+14:41:54.855 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.855 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.855 I [/f:601                          ] Updated connection type from -1 to 6
+14:41:54.856 I [/f:904                          ] collection: collection: Online state changed
+14:41:54.856 I [/f:904                          ] collection: ban: Online state changed
+14:41:54.856 I [/f:904                          ] collection: artistban: Online state changed
+14:41:54.856 I [/f:904                          ] collection: playcontextbans: Online state changed
+14:41:54.856 I [/f:904                          ] collection: artist: Online state changed
+14:41:54.856 I [/f:904                          ] collection: show: Online state changed
+14:41:54.856 I [/f:904                          ] collection: prerelease: Online state changed
+14:41:54.858 3 [/f:728                          ] [spotify:playlist:37i9dQZF1FgnTBfUlzkeKt] Synchronization starting: DIFF (from revision 0,726f6f7400000000000000000000000000000000) 
+14:41:54.863 3 [/f:728                          ] [spotify:playlist:37i9dQZF1F5p3rmiWPIYgZ] Synchronization starting: DIFF (from revision 1136598705,0000000000000000000000000000000000000341,(auto: YXV0bw==)) 
+14:41:54.863 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EpEqmOPnSJFJn] Synchronization starting: DIFF (from revision 1790336329,000000006f79efc50f3a922c22217a579878c8c8,(auto: YXV0bw==)) 
+14:41:54.863 5 [/f:800                          ] synchronizeRootlist 'spotify:user:31dkbvro3gx6k4xuf4davdm3ka4y:rootlist'
+14:41:54.863 5 [/f:206                          ] [spotify:playlist:1xQysoqoHfiTshje0ChRX9] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:2e2PE0NvsKKdm2J5nRBEDX] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZEVXcXHWVVT0lfDq] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZEVXbJkgIdfsJyTw] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:0w7GdIrB0FHLeYdhEb2usA] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:5fgT1LmsXzLsSGoN7thSWA] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:3WbWEAVAm1ezeNlaxZH9yq] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1FoyQGyinuuvRu] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1Fa1IIVtEpGUcU] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:2oLsELJbn3lYanTpb5iENE] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:2G1Y020ghhNp88KJXvISsJ] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:4phZ2kFtnXumFOAMYvMBWH] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZEVXbMDoHDwVN2tF] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1F0sijgNaJdgit] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DXcPYzOAWX8Wm] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1Epw7QkpADEkps] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:5vRTUdBHXlnHPDfcRW8hDi] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX89EkrAT8Z6U] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:4jUmj4KdIwWfxtLVmGSo7z] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX6xZZEgC9Ubl] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWWQRwui0ExPn] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX7qK8ma5wgG1] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX3YSRoSdA634] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWWEJlAGA9gs0] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX0h2LvJ7ZJ15] Creating context
+14:41:54.864 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX5cZuAHLNjGz] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX4WYpdgoIcn6] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWYcDQ1hSjOpY] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWXe9gFZP0gtP] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWZeKCadgRdKQ] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX9sIqqvKsjG8] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX76Wlfdnj7AP] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWYN9NBqvY7Tx] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWUKPeBypcpcP] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX8ymr6UES7vc] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWWY64wDtewQt] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:37i9dQZEVXbNG2KDcFcKOF] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:2jDkSAvDhayZVvX0xk6ghh] Creating context
+14:41:54.865 5 [/f:206                          ] [spotify:playlist:2q0uB7uETYU6wSXxFcdoiz] Creating context
+14:41:54.865 3 [/f:728                          ] [spotify:user:31dkbvro3gx6k4xuf4davdm3ka4y:rootlist] Synchronization starting: DIFF (from revision 98,27a98aa89cb1c9495a28e6ca83ef335f338db06d) 
+14:41:54.867 I [/f:322                          ] resumption::reportCacheMetrics breakdown - playlist=0, album=0, episode=0, show=0, podcast_chapter=0, user_highlight=0, clip=0, other=1, keys_skipped_at_startup=0, keys_unsynced_direct=0
+14:41:54.867 I [/f:165                          ] websocket: disconnecting
+14:41:54.867 I [/f:76                           ] websocket: Initiating connection, refresh authentication: 0
+14:41:54.871 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.910 I [/f:2769                         ] Update! reason: sync-level-updated, flags: 0x04
+14:41:54.910 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.911 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.914 D [/f:346                          ] Searching for devices on the outbound network interface 26.208.148.58 (unicast IPv4 socket)
+14:41:54.914 D [/f:346                          ] Searching for devices on the outbound network interface 26.208.148.58 (multicast IPv4 socket)
+14:41:54.914 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.1.6 (unicast IPv4 socket)
+14:41:54.914 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.1.6 (multicast IPv4 socket)
+14:41:54.915 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.1.7 (unicast IPv4 socket)
+14:41:54.915 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.1.7 (multicast IPv4 socket)
+14:41:54.915 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.23.1 (unicast IPv4 socket)
+14:41:54.915 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.23.1 (multicast IPv4 socket)
+14:41:54.915 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.133.1 (unicast IPv4 socket)
+14:41:54.915 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.133.1 (multicast IPv4 socket)
+14:41:54.919 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.937 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.938 I [/f:289                          ] Prefetch: looks like new context - resetting window size to 2
+14:41:54.941 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:54.967 D [/f:346                          ] Searching for devices on the outbound network interface 26.208.148.58 (multicast IPv4 socket)
+14:41:54.968 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.1.6 (multicast IPv4 socket)
+14:41:54.969 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.1.7 (multicast IPv4 socket)
+14:41:54.970 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.23.1 (multicast IPv4 socket)
+14:41:54.970 D [/f:346                          ] Searching for devices on the outbound network interface 192.168.133.1 (multicast IPv4 socket)
+14:41:54.971 D [/f:346                          ] Searching for devices on the outbound network interface fdfd::1ad0:943a%4 (multicast IPv6 socket)
+14:41:54.971 D [/f:346                          ] Searching for devices on the outbound network interface fe80::6cab:56c8:3492:1c03%10 (multicast IPv6 socket)
+14:41:54.972 D [/f:346                          ] Searching for devices on the outbound network interface fe80::a64d:f862:c14c:fdd5%17 (multicast IPv6 socket)
+14:41:54.973 D [/f:346                          ] Searching for devices on the outbound network interface fe80::ab8b:6ebe:5029:bde1%12 (multicast IPv6 socket)
+14:41:54.973 D [/f:346                          ] Searching for devices on the outbound network interface fe80::f877:617a:51f7:a5fc%21 (multicast IPv6 socket)
+14:41:54.974 D [/f:346                          ] Searching for devices on the outbound network interface fe80::fb92:9458:2996:f1d7%4 (multicast IPv6 socket)
+14:41:55.086 D [/f:573                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' created with TTL=60 seconds, host='Ultron.local', IPs='26.105.24.126', port='52065', cpath='/zc' (total 0 device(s))
+14:41:55.086 D [/f:310                          ] ConnectZeroconfLoginProtocol: starting getInfo for Spotify Desktop Launcher._spotify-connect._tcp.local
+14:41:55.086 D [/f:78                           ] ConnectZeroconfLoginProtocol: getInfo http://26.105.24.126:52065/zc?action=getInfo
+
+14:41:55.102 E [/f:363                          ] FetchInfo::fetchInfo failed with error='zeroconf_client_version_required'
+14:41:55.210 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.210 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.421 I [/f:263                          ] High request latency: https://apresolve.spotify.com/ took 554 ms
+14:41:55.421 I [/f:221                          ] Resolved rpc host: https://gew1-spclient.spotify.com:443
+14:41:55.421 I [/f:221                          ] Resolved streaming host: wss://gew1-dealer.g2.spotify.com:443
+14:41:55.426 I [/f:263                          ] High request latency: https://accounts.spotify.com/api took 514 ms
+14:41:55.426 I [/f:86                           ] websocket: received access token
+14:41:55.473 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.496 I [/f:263                          ] High request latency: https://apresolve.spotify.com/ took 1033 ms
+14:41:55.496 I [/f:504                          ] Connecting to AP ap-gew1.spotify.com:4070
+14:41:55.501 I [/f:60                           ] Resolved ap-gew1.spotify.com to 104.199.65.9
+14:41:55.504 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.553 I [/f:263                          ] High request latency: https://widget-content.spotify.com/v1 took 735 ms
+14:41:55.616 I [/f:261                          ] Ending step: main_view_init
+14:41:55.617 I [/f:336                          ] collection ylpin: Delta required
+14:41:55.617 I [/f:747                          ] collection ylpin: Starting delta sync
+14:41:55.618 I [/f:336                          ] collection markedasfinished: Delta required
+14:41:55.618 I [/f:747                          ] collection markedasfinished: Starting delta sync
+14:41:55.642 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.642 D [/f:962                          ] ConnectDevicesImpl::performDiscovery - can_discover: 1
+14:41:55.642 D [/f:310                          ] ConnectZeroconfLoginProtocol: starting getInfo for Spotify Desktop Launcher._spotify-connect._tcp.local
+14:41:55.643 D [/f:78                           ] ConnectZeroconfLoginProtocol: getInfo http://26.105.24.126:52065/zc?action=getInfo&version=2.12.0
+
+14:41:55.643 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.643 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.643 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.643 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.643 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.644 I [/f:179                          ] Audio device setting: 
+14:41:55.659 I [/f:336                          ] collection concerts: Delta required
+14:41:55.659 I [/f:747                          ] collection concerts: Starting delta sync
+14:41:55.666 I [/f:179                          ] Audio device setting: 
+14:41:55.763 D [/f:167                          ] DeviceCapabilityMap::fetchCapabilities Fetching from HWPTP
+14:41:55.763 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.763 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.763 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.763 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.763 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:55.783 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 871 ms
+14:41:55.825 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/desktop-update took 398 ms
+14:41:55.828 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 401 ms
+14:41:56.156 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/social-connect took 729 ms
+14:41:56.156 D [/f:143                          ] /current returned no Jam session; clearing local Jam restrictions
+14:41:56.156 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/partner-userid took 729 ms
+14:41:56.159 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 732 ms
+14:41:56.159 I [/f:842                          ] collection prerelease: Delta sync up to date
+14:41:56.159 I [/f:336                          ] collection prerelease: Delta required
+14:41:56.159 I [/f:747                          ] collection prerelease: Starting delta sync
+14:41:56.159 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 537 ms
+14:41:56.159 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/net-fortune took 732 ms
+14:41:56.159 I [/f:842                          ] collection ylpin: Delta sync up to date
+14:41:56.159 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 732 ms
+14:41:56.159 I [/f:842                          ] collection ban: Delta sync up to date
+14:41:56.159 I [/f:336                          ] collection ban: Delta required
+14:41:56.159 I [/f:747                          ] collection ban: Starting delta sync
+14:41:56.162 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 735 ms
+14:41:56.162 I [/f:842                          ] collection playcontextbans: Delta sync up to date
+14:41:56.162 I [/f:336                          ] collection playcontextbans: Delta required
+14:41:56.162 I [/f:747                          ] collection playcontextbans: Starting delta sync
+14:41:56.163 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 736 ms
+14:41:56.163 I [/f:842                          ] collection collection: Delta sync up to date
+14:41:56.163 I [/f:336                          ] collection collection: Delta required
+14:41:56.163 I [/f:747                          ] collection collection: Starting delta sync
+14:41:56.164 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 737 ms
+14:41:56.164 I [/f:842                          ] collection artist: Delta sync up to date
+14:41:56.164 I [/f:336                          ] collection artist: Delta required
+14:41:56.164 I [/f:747                          ] collection artist: Starting delta sync
+14:41:56.164 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 737 ms
+14:41:56.164 I [/f:842                          ] collection artistban: Delta sync up to date
+14:41:56.164 I [/f:336                          ] collection artistban: Delta required
+14:41:56.164 I [/f:747                          ] collection artistban: Starting delta sync
+14:41:56.166 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/device-capabilities took 739 ms
+14:41:56.254 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 424 ms
+14:41:56.293 I [/f:137                          ] Connected to AP: 104.199.65.9:4070
+14:41:56.346 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:56.347 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:56.367 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/herodotus took 939 ms
+14:41:56.368 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playback-settings took 940 ms
+14:41:56.368 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/recently-played took 941 ms
+14:41:56.368 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 941 ms
+14:41:56.368 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 746 ms
+14:41:56.377 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/ad-logic took 949 ms
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1F0sijgNaJdgit)
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:4jUmj4KdIwWfxtLVmGSo7z)
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZEVXbNG2KDcFcKOF)
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZEVXbJkgIdfsJyTw)
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1Epw7QkpADEkps)
+14:41:56.378 5 [/f:206                          ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] Creating context
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:0W6BJ935qfGvxX0CNI24xd)
+14:41:56.378 5 [/f:206                          ] [spotify:playlist:6rIClZ2bwNheRWRPdjRgHw] Creating context
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.378 5 [/f:206                          ] [spotify:playlist:41G0hwfQIeEKAfdp7kFShY] Creating context
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:2oLsELJbn3lYanTpb5iENE)
+14:41:56.378 5 [/f:206                          ] [spotify:playlist:1I8blQtLWzhPcmwvA5UBxI] Creating context
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.378 5 [/f:206                          ] [spotify:playlist:1DscET4Q7zMq8ykLPihQiI] Creating context
+14:41:56.378 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.378 I [/f:842                          ] collection markedasfinished: Delta sync up to date
+14:41:56.379 5 [/f:488                          ] [spotify:playlist:37i9dQZF1FgnTBfUlzkeKt] 'DIFF' request complete
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_DESCRIPTION
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_COLLABORATIVE
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:41:56.379 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:41:56.379 3 [/f:1506                         ] [spotify:playlist:37i9dQZF1FgnTBfUlzkeKt] Snapshot-updated to revision 0,726f6f7400000000000000000000000000000000
+14:41:56.380 3 [/f:728                          ] [spotify:playlist:37i9dQZEVXbJkgIdfsJyTw] Synchronization starting: DIFF (from revision 843661800,000000000000000000000000000000000000656e,(auto: YXV0bw==)) 
+14:41:56.380 3 [/f:728                          ] [spotify:playlist:2oLsELJbn3lYanTpb5iENE] Synchronization starting: DIFF (from revision 16,5ac9a95d3c9defa36fffc06f41c988a8ef95995b,(auto: YXV0bw==)) 
+14:41:56.413 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/ads took 985 ms
+14:41:56.426 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:2q0uB7uETYU6wSXxFcdoiz)
+14:41:56.431 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:2jDkSAvDhayZVvX0xk6ghh)
+14:41:56.432 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:4jUmj4KdIwWfxtLVmGSo7z)
+14:41:56.432 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 1005 ms
+14:41:56.432 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1F0sijgNaJdgit)
+14:41:56.432 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZEVXbNG2KDcFcKOF)
+14:41:56.432 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1Epw7QkpADEkps)
+14:41:56.432 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1Fa1IIVtEpGUcU)
+14:41:56.433 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:0w7GdIrB0FHLeYdhEb2usA)
+14:41:56.449 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/hwptp took 685 ms
+14:41:56.449 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/capping-api took 838 ms
+14:41:56.449 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 1022 ms
+14:41:56.449 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/herodotus took 1022 ms
+14:41:56.449 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playback-settings took 1022 ms
+14:41:56.464 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 1037 ms
+14:41:56.464 5 [/f:488                          ] [spotify:playlist:37i9dQZF1F5p3rmiWPIYgZ] 'DIFF' request complete
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_DESCRIPTION
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_COLLABORATIVE
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_FORMAT_ATTRIBUTES
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:41:56.464 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:41:56.464 5 [/f:224                          ] Add 731 tracks
+14:41:56.468 3 [/f:1506                         ] [spotify:playlist:37i9dQZF1F5p3rmiWPIYgZ] Snapshot-updated to revision 1136598705,0000000000000000000000000000000000000341,(auto: YXV0bw==)
+14:41:56.473 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 1046 ms
+14:41:56.473 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/clientsettings took 1046 ms
+14:41:56.473 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 796 ms
+14:41:56.473 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-publish took 1046 ms
+14:41:56.474 5 [/f:206                          ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] Creating context
+14:41:56.474 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:0W6BJ935qfGvxX0CNI24xd)
+14:41:56.474 5 [/f:206                          ] [spotify:playlist:6rIClZ2bwNheRWRPdjRgHw] Creating context
+14:41:56.474 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.474 5 [/f:206                          ] [spotify:playlist:41G0hwfQIeEKAfdp7kFShY] Creating context
+14:41:56.474 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.474 5 [/f:206                          ] [spotify:playlist:1I8blQtLWzhPcmwvA5UBxI] Creating context
+14:41:56.474 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.474 5 [/f:206                          ] [spotify:playlist:1DscET4Q7zMq8ykLPihQiI] Creating context
+14:41:56.474 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.474 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWWY64wDtewQt)
+14:41:56.478 I [/f:842                          ] collection show: Delta sync up to date
+14:41:56.479 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:0W6BJ935qfGvxX0CNI24xd)
+14:41:56.479 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.479 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.479 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.479 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.479 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWWY64wDtewQt)
+14:41:56.480 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:0W6BJ935qfGvxX0CNI24xd)
+14:41:56.480 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.480 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.480 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.480 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.480 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWWY64wDtewQt)
+14:41:56.482 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.482 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.482 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.482 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.482 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWWY64wDtewQt)
+14:41:56.483 3 [/f:728                          ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] Synchronization starting: DIFF (from revision 6,996cbd5afb0fe56b35a55716960d5e35c65f1350,(auto: YXV0bw==)) 
+14:41:56.483 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.483 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.483 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.483 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.483 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWWY64wDtewQt)
+14:41:56.486 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.486 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.486 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.486 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.487 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.487 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.487 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.487 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.488 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:6rIClZ2bwNheRWRPdjRgHw)
+14:41:56.488 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.488 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.488 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.490 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.490 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.490 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.491 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.491 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.491 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.493 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:41G0hwfQIeEKAfdp7kFShY)
+14:41:56.493 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.493 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.495 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.495 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.496 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1I8blQtLWzhPcmwvA5UBxI)
+14:41:56.496 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.498 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.499 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.500 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1DscET4Q7zMq8ykLPihQiI)
+14:41:56.512 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:56.520 I [/f:111                          ] websocket: first message received, connection established
+14:41:56.520 I [/f:116                          ] websocket: received connection id: MmZiMzhhY2ItNmM4Ny00ZGY5LThlNDItZThjZGM3ZTNkZTIxK2RlYWxlcit0Y3A6Ly8wYWNhNDEwOC5pcC5nZXcxLnNwb3RpZnkubmV0OjU3MDArNkM4MTUxREYwQkY0MDY0MDRFMzc4QzJBNDBDQUM0RTZFNDYzRUM0MjkwMjYzMTZDMUI5NjczQTBBRDE4NzlGOQ==
+14:41:56.520 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 1092 ms
+14:41:56.520 I [/f:336                          ] collection show: Delta required
+14:41:56.520 I [/f:747                          ] collection show: Starting delta sync
+14:41:56.544 E [/f:64                           ] Exception thrown in UpdateJumpList
+14:41:56.546 E [/f:64                           ] Exception thrown in UpdateJumpList
+14:41:56.547 E [/f:64                           ] Exception thrown in UpdateJumpList
+14:41:56.547 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:56.548 E [/f:64                           ] Exception thrown in UpdateJumpList
+14:41:56.548 E [/f:64                           ] Exception thrown in UpdateJumpList
+14:41:56.549 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:56.549 I [/f:25                           ] curation_state: Will sync a playlist, 0 left to sync.
+14:41:56.550 I [/f:842                          ] collection concerts: Delta sync up to date
+14:41:56.571 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 411 ms
+14:41:56.571 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 408 ms
+14:41:56.571 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 411 ms
+14:41:56.571 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 407 ms
+14:41:56.571 I [/f:66                           ] New pubsub connection id received
+14:41:56.571 I [/f:764                          ] ConnectConnectivityListener: received new_connection_id MmZiMzhhY2ItNmM4Ny00ZGY5LThlNDItZThjZGM3ZTNkZTIxK2RlYWxlcit0Y3A6Ly8wYWNhNDEwOC5pcC5nZXcxLnNwb3RpZnkubmV0OjU3MDArNkM4MTUxREYwQkY0MDY0MDRFMzc4QzJBNDBDQUM0RTZFNDYzRUM0MjkwMjYzMTZDMUI5NjczQTBBRDE4NzlGOQ== - starting 
+
+14:41:56.571 D [/f:1567                         ] Connection established
+14:41:56.572 D [/f:102                          ] Jam pubsub connected with id 'MmZiMzhhY2ItNmM4Ny00ZGY5LThlNDItZThjZGM3ZTNkZTIxK2RlYWxlcit0Y3A6Ly8wYWNhNDEwOC5pcC5nZXcxLnNwb3RpZnkubmV0OjU3MDArNkM4MTUxREYwQkY0MDY0MDRFMzc4QzJBNDBDQUM0RTZFNDYzRUM0MjkwMjYzMTZDMUI5NjczQTBBRDE4NzlGOQ=='
+14:41:56.572 D [/f:107                          ] Refreshing Jam session from /current after pubsub connection
+14:41:56.572 D [/f:121                          ] Requesting current Jam session from /current
+14:41:56.572 I [/f:904                          ] collection: collection: Online state changed
+14:41:56.572 I [/f:904                          ] collection: ban: Online state changed
+14:41:56.572 I [/f:904                          ] collection: artistban: Online state changed
+14:41:56.572 I [/f:904                          ] collection: playcontextbans: Online state changed
+14:41:56.572 I [/f:904                          ] collection: artist: Online state changed
+14:41:56.572 I [/f:904                          ] collection: show: Online state changed
+14:41:56.572 I [/f:904                          ] collection: prerelease: Online state changed
+14:41:56.572 I [/f:904                          ] collection: ylpin: Online state changed
+14:41:56.572 I [/f:904                          ] collection: markedasfinished: Online state changed
+14:41:56.572 I [/f:904                          ] collection: concerts: Online state changed
+14:41:56.572 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 407 ms
+14:41:56.572 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 408 ms
+14:41:56.586 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EpEqmOPnSJFJn] 'DIFF' request complete
+14:41:56.586 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EpEqmOPnSJFJn] Delta-updated to revision 1790336329,000000006f79efc50f3a922c22217a579878c8c8
+14:41:56.588 3 [/f:728                          ] [spotify:playlist:2jDkSAvDhayZVvX0xk6ghh] Synchronization starting: DIFF (from revision 235,1e26e10962cd735a70583fea26e41a3decbbb7d6,(auto: YXV0bw==)) 
+14:41:56.588 I [/f:336                          ] collection ylpin: Delta required
+14:41:56.588 I [/f:747                          ] collection ylpin: Starting delta sync
+14:41:56.588 I [/f:336                          ] collection markedasfinished: Delta required
+14:41:56.588 I [/f:747                          ] collection markedasfinished: Starting delta sync
+14:41:56.588 I [/f:336                          ] collection concerts: Delta required
+14:41:56.588 I [/f:747                          ] collection concerts: Starting delta sync
+14:41:56.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:56.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:56.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:56.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:56.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:56.590 I [/f:842                          ] collection prerelease: Delta sync up to date
+14:41:56.590 I [/f:842                          ] collection playcontextbans: Delta sync up to date
+14:41:56.590 I [/f:842                          ] collection ban: Delta sync up to date
+14:41:56.590 I [/f:842                          ] collection collection: Delta sync up to date
+14:41:56.590 5 [/f:488                          ] [spotify:user:31dkbvro3gx6k4xuf4davdm3ka4y:rootlist] 'DIFF' request complete
+14:41:56.590 3 [/f:1418                         ] [spotify:user:31dkbvro3gx6k4xuf4davdm3ka4y:rootlist] Delta-updated to revision 98,27a98aa89cb1c9495a28e6ca83ef335f338db06d (no new changes)
+14:41:56.590 I [/f:842                          ] collection artistban: Delta sync up to date
+14:41:56.590 I [/f:842                          ] collection artist: Delta sync up to date
+14:41:56.590 I [/f:336                          ] collection prerelease: Delta required
+14:41:56.590 I [/f:747                          ] collection prerelease: Starting delta sync
+14:41:56.590 I [/f:336                          ] collection playcontextbans: Delta required
+14:41:56.590 I [/f:747                          ] collection playcontextbans: Starting delta sync
+14:41:56.590 I [/f:336                          ] collection ban: Delta required
+14:41:56.590 I [/f:747                          ] collection ban: Starting delta sync
+14:41:56.590 I [/f:336                          ] collection collection: Delta required
+14:41:56.590 I [/f:747                          ] collection collection: Starting delta sync
+14:41:56.590 I [/f:336                          ] collection artistban: Delta required
+14:41:56.590 I [/f:747                          ] collection artistban: Starting delta sync
+14:41:56.590 I [/f:336                          ] collection artist: Delta required
+14:41:56.590 I [/f:747                          ] collection artist: Starting delta sync
+14:41:56.592 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:56.592 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:56.606 E [/f:64                           ] Exception thrown in UpdateJumpList
+14:41:56.606 I [/f:309                          ] AP login welcome, len 283
+14:41:56.607 E [/f:49                           ] Failed to find out if 'C:\Users\AMD RYZEN 5\AppData\Roaming\Spotify\Users\31dkbvro3gx6k4xuf4davdm3ka4y-user\log' exists, error The operation completed successfully
+14:41:56.607 I [/f:863                          ] Logging connection info message, current ap: ap-gew1.spotify.com:4070
+14:41:56.607 I [/f:301                          ] New max active requests for job type 1: 1 (throttling at 250)
+14:41:56.607 I [/f:340                          ] AP login complete, len 0
+14:41:56.607 I [/f:1452                         ] Setting playback speed to 100 percent (playback_id 77a00fa9d19b42357d0608c91e87b3d2) from 100 percent
+14:41:56.718 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 462 ms
+14:41:56.833 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 417 ms
+14:41:56.833 5 [/f:488                          ] [spotify:playlist:37i9dQZEVXbJkgIdfsJyTw] 'DIFF' request complete
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_ITEM_ID_ALGORITHM
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:41:56.834 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:41:56.834 5 [/f:224                          ] Add 50 tracks
+14:41:56.835 3 [/f:1506                         ] [spotify:playlist:37i9dQZEVXbJkgIdfsJyTw] Snapshot-updated to revision 843662400,000000000000000000000000000000000000656e,(auto: YXV0bw==)
+14:41:56.835 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZEVXbJkgIdfsJyTw)
+14:41:56.846 3 [/f:728                          ] [spotify:playlist:37i9dQZEVXbJkgIdfsJyTw] Synchronization starting: DIFF (from revision 843662400,000000000000000000000000000000000000656e,(auto: YXV0bw==)) 
+14:41:56.851 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 435 ms
+14:41:56.851 5 [/f:488                          ] [spotify:playlist:2oLsELJbn3lYanTpb5iENE] 'DIFF' request complete
+14:41:56.852 3 [/f:1418                         ] [spotify:playlist:2oLsELJbn3lYanTpb5iENE] Delta-updated to revision 16,5ac9a95d3c9defa36fffc06f41c988a8ef95995b
+14:41:56.852 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:2oLsELJbn3lYanTpb5iENE)
+14:41:56.852 3 [/f:728                          ] [spotify:playlist:2oLsELJbn3lYanTpb5iENE] Synchronization starting: DIFF (from revision 16,5ac9a95d3c9defa36fffc06f41c988a8ef95995b,(auto: YXV0bw==)) 
+14:41:56.863 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:56.863 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:56.874 3 [/f:728                          ] [spotify:playlist:0w7GdIrB0FHLeYdhEb2usA] Synchronization starting: DIFF (from revision 93,6423000a2c4cb0b1c2ff97eef563af2a5aac05de,(auto: YXV0bw==)) 
+14:41:56.939 I [/f:263                          ] High request latency: hm://event-service/v1 took 332 ms
+14:41:56.991 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 400 ms
+14:41:56.991 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 400 ms
+14:41:56.992 I [/f:842                          ] collection show: Delta sync up to date
+14:41:56.992 5 [/f:488                          ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] 'DIFF' request complete
+14:41:56.992 3 [/f:1418                         ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] Delta-updated to revision 6,996cbd5afb0fe56b35a55716960d5e35c65f1350
+14:41:56.992 I [/f:336                          ] collection show: Delta required
+14:41:56.992 I [/f:747                          ] collection show: Starting delta sync
+14:41:56.992 3 [/f:728                          ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] Synchronization starting: DIFF (from revision 6,996cbd5afb0fe56b35a55716960d5e35c65f1350,(auto: YXV0bw==)) 
+14:41:56.996 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 404 ms
+14:41:56.996 I [/f:842                          ] collection ylpin: Delta sync up to date
+14:41:56.996 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 405 ms
+14:41:56.996 I [/f:842                          ] collection collection: Delta sync up to date
+14:41:56.998 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 406 ms
+14:41:56.998 I [/f:842                          ] collection artist: Delta sync up to date
+14:41:56.998 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 406 ms
+14:41:56.998 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 406 ms
+14:41:56.998 I [/f:842                          ] collection concerts: Delta sync up to date
+14:41:56.998 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 406 ms
+14:41:56.998 I [/f:842                          ] collection playcontextbans: Delta sync up to date
+14:41:56.998 I [/f:842                          ] collection prerelease: Delta sync up to date
+14:41:57.000 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/social-connect took 408 ms
+14:41:57.000 D [/f:143                          ] /current returned no Jam session; clearing local Jam restrictions
+14:41:57.017 I [/f:124                          ] websocket: received message with ident: hm://connect-state/v1/cluster
+14:41:57.019 D [/f:565                          ] putstate response with 9553ms left, cluster update reason was NEW_CONNECTION
+14:41:57.019 D [/f:1122                         ] ConnectManager cluster changed: reason NEW_CONNECTION ack id  changed devices = 12b56bf8b83f79843d1aaf8b47bba793ff109438
+14:41:57.024 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/connect-state took 433 ms
+14:41:57.027 D [/f:1122                         ] ConnectManager cluster changed: reason PUTSTATE_RESPONSE ack id  changed devices = 12b56bf8b83f79843d1aaf8b47bba793ff109438
+14:41:57.048 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/connect-state took 456 ms
+14:41:57.050 D [/f:1122                         ] ConnectManager cluster changed: reason PUTSTATE_RESPONSE ack id  changed devices = 12b56bf8b83f79843d1aaf8b47bba793ff109438
+14:41:57.051 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 459 ms
+14:41:57.051 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 459 ms
+14:41:57.051 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 459 ms
+14:41:57.051 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 459 ms
+14:41:57.051 I [/f:842                          ] collection artistban: Delta sync up to date
+14:41:57.051 I [/f:842                          ] collection markedasfinished: Delta sync up to date
+14:41:57.051 I [/f:842                          ] collection ban: Delta sync up to date
+14:41:57.051 5 [/f:488                          ] [spotify:playlist:2jDkSAvDhayZVvX0xk6ghh] 'DIFF' request complete
+14:41:57.051 3 [/f:1418                         ] [spotify:playlist:2jDkSAvDhayZVvX0xk6ghh] Delta-updated to revision 235,1e26e10962cd735a70583fea26e41a3decbbb7d6
+14:41:57.074 3 [/f:728                          ] [spotify:playlist:37i9dQZF1Fa1IIVtEpGUcU] Synchronization starting: DIFF (from revision 1699989720,00000000fcbef4fccb2952499d4ba6dd9e3aaf5c,(auto: YXV0bw==)) 
+14:41:57.223 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:57.223 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:57.243 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 522 ms
+14:41:57.253 D [/f:475                          ] Restoring mdns devices from prefs [{"created_timestamp":1790346840,"device_id":"95f895586ccf0c85b3517b08e5ebd9734be6f61c","device_info":{"addresses":["26.105.24.126"],"availability":"any","brand_display_name":"spotify","device_type":"computer","get_info_json":"","is_group":false,"model_display_name":"unknown","should_send_wol":false},"discovery_name":"Spotify Desktop Launcher._spotify-connect._tcp.local","display_name":"ULTRON","hostname":"Ultron.local","last_seen":1790347019,"page_uri":"/zc","port":52065,"public_ip":"39.34.44.51","required_device_info":{"public_key":"UMdI4v/y3nd1edm2M5r8MX96prLBo7PvlnS0jb8Bhns7V1G6FLy5kOg1LZ4AKlbx0h7YRiGXRBH1ybyorylsLUAcWaFU7L1Eq5lUXCiJBc3BpreiuBffZ8y3oMoeUCZS","remote_name":"ULTRON","version":"2.12.0"},"ttl":60,"txt_records":{"CPath":"/zc"}},{"created_timestamp":1790086974,"device_id":"95f895586ccf0c85b3517b08e5ebd9734be6f61c","device_info":{"addresses":["26.105.24.126"],"availability":"any","brand_display_name":"spotify","client_id":"65b708073fc0480ea92a077233ca87bd","device_type":"computer","get_info_json":"{\"status\":101,\"statusString\":\"OK\",\"spotifyError\":0,\"responseSource\":\"Spotify\",\"version\":\"2.12.0\",\"deviceID\":\"95f895586ccf0c85b3517b08e5ebd9734be6f61c\",\"remoteName\":\"ULTRON\",\"publicKey\":\"OwF0d+AMMjgIYE7GRNKkpses4i2YV5iME33VE6geLraUhqmDtCL9Tp7qlLp1KNUNu4RVVo40Wt/Lfl0K1c6XjW68gSpcylDIiK4F9jDrwf++lC/3+wP8EVIEgxDEWoOF\",\"deviceType\":\"COMPUTER\",\"libraryVersion\":\"1.3.1.234\",\"brandDisplayName\":\"spotify\",\"modelDisplayName\":\"unknown\",\"resolverVersion\":\"1\",\"groupStatus\":\"NONE\",\"tokenType\":\"default\",\"clientID\":\"65b708073fc0480ea92a077233ca87bd\",\"productID\":850,\"scope\":\"streaming\",\"availability\":\"\",\"user_match\":\"68e69be3b52be6b9845494b8b85476a6f888b164|5711f3f71c7b1832\"}","group_status":"NONE","is_group":false,"library_version":"1.3.1.234","model_display_name":"unknown","product_id":"850","resolver_version":"1","scope":"streaming","should_send_wol":false,"token_type":"default","user_match":"68e69be3b52be6b9845494b8b85476a6f888b164|5711f3f71c7b1832"},"discovery_name":"Spotify Desktop Launcher._spotify-connect._tcp.local","display_name":"ULTRON","hostname":"Ultron.local","last_seen":1790087308,"page_uri":"/zc","port":53904,"public_ip":"39.34.122.83","required_device_info":{"public_key":"OwF0d+AMMjgIYE7GRNKkpses4i2YV5iME33VE6geLraUhqmDtCL9Tp7qlLp1KNUNu4RVVo40Wt/Lfl0K1c6XjW68gSpcylDIiK4F9jDrwf++lC/3+wP8EVIEgxDEWoOF","remote_name":"ULTRON","version":"2.12.0"},"ttl":60,"txt_records":{"CPath":"/zc"}},{"created_timestamp":1790087210,"device_id":"7352451a33ba0b34773c99ddff80d02f7f1481df","device_info":{"addresses":["26.208.148.58","192.168.1.9","192.168.1.10","192.168.23.1","192.168.133.1"],"availability":"any","brand_display_name":"librespotc","device_type":"speaker","get_info_json":"","is_group":false,"model_display_name":"librespotc","should_send_wol":false},"discovery_name":"FH6 Radio (Ryzen-5)._spotify-connect._tcp.local","display_name":"FH6 Radio (Ryzen-5)","hostname":"Ryzen-5.local","last_seen":1790243932,"page_uri":"/","port":53814,"public_ip":"39.34.122.83","required_device_info":{"public_key":"imUIFIXwqGQpmdErox/W3abkyv5z8wGLHZtWQUslP/9FiqFlNEQbCBGeY8mOvKcOd9WtusanVukU6L3ct5Ydfu0iYMfsibOPebSVocLvjV8AwWlhI8tsNUq8+Q5FSE0x","remote_name":"FH6 Radio (Ryzen-5)","version":"2.9.0"},"ttl":60,"txt_records":{"CPath":"/","VERSION":"1.0"}},{"created_timestamp":1789731270,"device_id":"95f895586ccf0c85b3517b08e5ebd9734be6f61c","device_info":{"addresses":["26.105.24.126"],"availability":"any","brand_display_name":"spotify","client_id":"65b708073fc0480ea92a077233ca87bd","device_type":"computer","get_info_json":"{\"status\":101,\"statusString\":\"OK\",\"spotifyError\":0,\"responseSource\":\"Spotify\",\"version\":\"2.12.0\",\"deviceID\":\"95f895586ccf0c85b3517b08e5ebd9734be6f61c\",\"remoteName\":\"ULTRON\",\"publicKey\":\"p2l6jGYC+J1lWVXBT06R9VSqy5jRvF259gTb+arXxMom8rLV3kU35VrtAqxozLOgR3Mnh1Fz3/XktPMg2OWy0199vbDpiIVHh8mTvST1o04a2RjbbR1XCHrkfGkTa0NT\",\"deviceType\":\"COMPUTER\",\"libraryVersion\":\"1.3.1.234\",\"brandDisplayName\":\"spotify\",\"modelDisplayName\":\"unknown\",\"resolverVersion\":\"1\",\"groupStatus\":\"NONE\",\"tokenType\":\"default\",\"clientID\":\"65b708073fc0480ea92a077233ca87bd\",\"productID\":850,\"scope\":\"streaming\",\"availability\":\"\",\"user_match\":\"fb6f5c5c5f0ffa0d770029f6a26691cb42387116|8c8f215db754c91a\"}","group_status":"NONE","is_group":false,"library_version":"1.3.1.234","model_display_name":"unknown","product_id":"850","resolver_version":"1","scope":"streaming","should_send_wol":false,"token_type":"default","user_match":"fb6f5c5c5f0ffa0d770029f6a26691cb42387116|8c8f215db754c91a"},"discovery_name":"Spotify Desktop Launcher._spotify-connect._tcp.local","display_name":"ULTRON","hostname":"Ultron.local","last_seen":1789734630,"page_uri":"/zc","port":58225,"public_ip":"182.189.10.59","required_device_info":{"public_key":"p2l6jGYC+J1lWVXBT06R9VSqy5jRvF259gTb+arXxMom8rLV3kU35VrtAqxozLOgR3Mnh1Fz3/XktPMg2OWy0199vbDpiIVHh8mTvST1o04a2RjbbR1XCHrkfGkTa0NT","remote_name":"ULTRON","version":"2.12.0"},"ttl":60,"txt_records":{"CPath":"/zc"},"verified_ip_idx":0}]
+14:41:57.254 D [/f:1034                         ] Restoring dial devices from prefs []
+14:41:57.254 D [/f:444                          ] ConnectState cluster changed: reason NEW_CONNECTION
+14:41:57.254 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:57.254 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:57.254 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:57.254 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:57.254 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:41:57.255 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 402 ms
+14:41:57.255 5 [/f:488                          ] [spotify:playlist:2oLsELJbn3lYanTpb5iENE] 'DIFF' request complete
+14:41:57.255 3 [/f:1418                         ] [spotify:playlist:2oLsELJbn3lYanTpb5iENE] Delta-updated to revision 16,5ac9a95d3c9defa36fffc06f41c988a8ef95995b
+14:41:57.256 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 407 ms
+14:41:57.256 5 [/f:488                          ] [spotify:playlist:37i9dQZEVXbJkgIdfsJyTw] 'DIFF' request complete
+14:41:57.256 3 [/f:1418                         ] [spotify:playlist:37i9dQZEVXbJkgIdfsJyTw] Delta-updated to revision 843662400,000000000000000000000000000000000000656e
+14:41:57.270 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 395 ms
+14:41:57.270 5 [/f:488                          ] [spotify:playlist:0w7GdIrB0FHLeYdhEb2usA] 'DIFF' request complete
+14:41:57.270 3 [/f:1418                         ] [spotify:playlist:0w7GdIrB0FHLeYdhEb2usA] Delta-updated to revision 93,6423000a2c4cb0b1c2ff97eef563af2a5aac05de
+14:41:57.275 3 [/f:728                          ] [spotify:playlist:37i9dQZF1F0sijgNaJdgit] Synchronization starting: DIFF (from revision 1669908962,000000007b384a10c3e44683bccf2c271cec3a61,(auto: YXV0bw==)) 
+14:41:57.280 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DWWY64wDtewQt] Synchronization starting: DIFF (from revision 0,ec6d3678ca3a4f42d25a0e06a3dbe3b98b5be674,(auto: YXV0bw==)) 
+14:41:57.296 3 [/f:728                          ] [spotify:playlist:37i9dQZF1Epw7QkpADEkps] Synchronization starting: DIFF (from revision 1790336329,000000006f79efc50f3a922c22217a579878c8c8,(auto: YXV0bw==)) 
+14:41:57.391 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 398 ms
+14:41:57.391 5 [/f:488                          ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] 'DIFF' request complete
+14:41:57.391 3 [/f:1418                         ] [spotify:playlist:0W6BJ935qfGvxX0CNI24xd] Delta-updated to revision 6,996cbd5afb0fe56b35a55716960d5e35c65f1350
+14:41:57.394 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 401 ms
+14:41:57.394 I [/f:842                          ] collection show: Delta sync up to date
+14:41:57.413 3 [/f:728                          ] [spotify:playlist:4jUmj4KdIwWfxtLVmGSo7z] Synchronization starting: DIFF (from revision 88,555b92472e976968b8fed09c5ae52ae89689147c,(auto: YXV0bw==)) 
+14:41:57.516 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 441 ms
+14:41:57.517 5 [/f:488                          ] [spotify:playlist:37i9dQZF1Fa1IIVtEpGUcU] 'DIFF' request complete
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_COLLABORATIVE
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_ITEM_ID_ALGORITHM
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:41:57.517 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:41:57.517 5 [/f:224                          ] Add 100 tracks
+14:41:57.518 3 [/f:1506                         ] [spotify:playlist:37i9dQZF1Fa1IIVtEpGUcU] Snapshot-updated to revision 1699989720,00000000fcbef4fccb2952499d4ba6dd9e3aaf5c,(auto: YXV0bw==)
+14:41:57.526 5 [/f:206                          ] [spotify:list:recents:main] Creating context
+14:41:57.526 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:list:recents:main)
+14:41:57.527 3 [/f:728                          ] [spotify:list:recents:main] Synchronization starting: DIFF (from revision 0,0000000025a65eea5343fb04c1feb001ead65631,(auto: YXV0bw==)) 
+14:41:57.527 I [/f:336                          ] collection author: Delta required
+14:41:57.527 I [/f:747                          ] collection author: Starting delta sync
+14:41:57.533 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:41:57.534 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:41:57.692 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 412 ms
+14:41:57.693 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DWWY64wDtewQt] 304 NOT_MODIFIED response - nothing changed
+14:41:57.693 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 396 ms
+14:41:57.693 5 [/f:488                          ] [spotify:playlist:37i9dQZF1Epw7QkpADEkps] 'DIFF' request complete
+14:41:57.693 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1Epw7QkpADEkps] Delta-updated to revision 1790336329,000000006f79efc50f3a922c22217a579878c8c8
+14:41:57.712 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 436 ms
+14:41:57.712 5 [/f:488                          ] [spotify:playlist:37i9dQZF1F0sijgNaJdgit] 'DIFF' request complete
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_COLLABORATIVE
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_ITEM_ID_ALGORITHM
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:41:57.712 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:41:57.712 5 [/f:224                          ] Add 100 tracks
+14:41:57.713 3 [/f:1506                         ] [spotify:playlist:37i9dQZF1F0sijgNaJdgit] Snapshot-updated to revision 1669908962,000000007b384a10c3e44683bccf2c271cec3a61,(auto: YXV0bw==)
+14:41:57.714 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+14:41:57.714 3 [/f:728                          ] [spotify:playlist:2q0uB7uETYU6wSXxFcdoiz] Synchronization starting: DIFF (from revision 530,0f83f2dee6de7ddf8777785d77496960a6f5c25b,(auto: YXV0bw==)) 
+14:41:57.742 3 [/f:728                          ] [spotify:playlist:37i9dQZEVXbNG2KDcFcKOF] Synchronization starting: DIFF (from revision 843661800,000000000000000000000000000000000000656e,(auto: YXV0bw==)) 
+14:41:57.811 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 396 ms
+14:41:57.811 5 [/f:488                          ] [spotify:playlist:4jUmj4KdIwWfxtLVmGSo7z] 'DIFF' request complete
+14:41:57.811 3 [/f:1418                         ] [spotify:playlist:4jUmj4KdIwWfxtLVmGSo7z] Delta-updated to revision 88,555b92472e976968b8fed09c5ae52ae89689147c
+14:41:57.836 3 [/f:728                          ] [spotify:playlist:6rIClZ2bwNheRWRPdjRgHw] Synchronization starting: DIFF (from revision 37,4d82f8c8a9c1d962005d8526e01cc47cad6d6f52,(auto: YXV0bw==)) 
+14:41:57.836 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWYza9Q5qYsiV] Creating context
+14:41:57.837 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWYza9Q5qYsiV)
+14:41:57.837 5 [/f:206                          ] [spotify:playlist:37i9dQZEVXbdLq9EQfKEzM] Creating context
+14:41:57.837 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZEVXbdLq9EQfKEzM)
+14:41:57.837 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX9Hx4oncfBhG] Creating context
+14:41:57.837 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DX9Hx4oncfBhG)
+14:41:57.837 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX30DGof92rQX] Creating context
+14:41:57.837 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DX30DGof92rQX)
+14:41:57.838 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWYwEKCAVGtST] Creating context
+14:41:57.838 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWYwEKCAVGtST)
+14:41:57.838 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWVgsJtp58d1t] Creating context
+14:41:57.838 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWVgsJtp58d1t)
+14:41:57.838 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWW7gj0FcGEx6] Creating context
+14:41:57.838 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWW7gj0FcGEx6)
+14:41:57.838 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWWOGXILUAh53] Creating context
+14:41:57.838 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWWOGXILUAh53)
+14:41:57.838 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX11otjJ7crqp] Creating context
+14:41:57.839 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DX11otjJ7crqp)
+14:41:57.839 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX82GYcclJ3Ug] Creating context
+14:41:57.839 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DX82GYcclJ3Ug)
+14:41:57.839 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E396vdUKpRaSB] Creating context
+14:41:57.839 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E396vdUKpRaSB)
+14:41:57.839 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E35nEQ9c819zx] Creating context
+14:41:57.839 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E35nEQ9c819zx)
+14:41:57.839 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E36DcKx0eemhs] Creating context
+14:41:57.839 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E36DcKx0eemhs)
+14:41:57.840 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E3a7fKuSzMsEu] Creating context
+14:41:57.840 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E3a7fKuSzMsEu)
+14:41:57.840 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E381Mb0v0HNMJ] Creating context
+14:41:57.840 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E381Mb0v0HNMJ)
+14:41:57.840 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E36tDFOzcQO9T] Creating context
+14:41:57.840 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E36tDFOzcQO9T)
+14:41:57.840 5 [/f:206                          ] [spotify:playlist:37i9dQZEVXcVGIz8mDMsUA] Creating context
+14:41:57.840 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZEVXcVGIz8mDMsUA)
+14:41:57.844 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EQncLwOalG3K7] Creating context
+14:41:57.844 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EQncLwOalG3K7)
+14:41:57.844 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EQnsJ0xmvpihE] Creating context
+14:41:57.844 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EQnsJ0xmvpihE)
+14:41:57.844 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EQt8VxTH7fPID] Creating context
+14:41:57.844 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EQt8VxTH7fPID)
+14:41:57.845 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EQqedj0y9Uwvu] Creating context
+14:41:57.845 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EQqedj0y9Uwvu)
+14:41:57.845 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EVKuMoAJjoTIw] Creating context
+14:41:57.845 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EVKuMoAJjoTIw)
+14:41:57.845 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EVHSXhJvOIrqV] Creating context
+14:41:57.845 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EVHSXhJvOIrqV)
+14:41:57.845 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EQcAnxYY2ZXzJ] Creating context
+14:41:57.845 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EQcAnxYY2ZXzJ)
+14:41:57.845 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIZqq1SLQZ0z7] Creating context
+14:41:57.846 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIZqq1SLQZ0z7)
+14:41:57.846 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EQrDvAYlo322B] Creating context
+14:41:57.846 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EQrDvAYlo322B)
+14:41:57.846 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIY2tze58neCn] Creating context
+14:41:57.846 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIY2tze58neCn)
+14:41:57.846 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4yleuWstyUDt] Creating context
+14:41:57.846 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4yleuWstyUDt)
+14:41:57.846 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4ytpt0Iot0bJ] Creating context
+14:41:57.846 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4ytpt0Iot0bJ)
+14:41:57.846 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4oee5QSbfqLN] Creating context
+14:41:57.846 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4oee5QSbfqLN)
+14:41:57.846 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4Ap1Xw6vUfw7] Creating context
+14:41:57.846 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4Ap1Xw6vUfw7)
+14:41:57.847 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4rlkYj6ItCDn] Creating context
+14:41:57.847 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4rlkYj6ItCDn)
+14:41:57.847 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4yz33MiS52aA] Creating context
+14:41:57.847 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4yz33MiS52aA)
+14:41:57.847 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4v33tCHOMIca] Creating context
+14:41:57.847 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4v33tCHOMIca)
+14:41:57.847 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4BklxwcWYhxG] Creating context
+14:41:57.847 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4BklxwcWYhxG)
+14:41:57.847 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4xlXmVqy6AU7] Creating context
+14:41:57.847 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4xlXmVqy6AU7)
+14:41:57.847 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4xWV26WHcCud] Creating context
+14:41:57.847 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4xWV26WHcCud)
+14:41:57.848 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4zC3419LU24m] Creating context
+14:41:57.848 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4zC3419LU24m)
+14:41:57.848 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DZ06evO3n0Aus] Creating context
+14:41:57.848 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DZ06evO3n0Aus)
+14:41:57.848 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DXcZDD7cfEKhW] Creating context
+14:41:57.848 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DXcZDD7cfEKhW)
+14:41:57.848 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DWSJHnPb1f0X3] Creating context
+14:41:57.848 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DWSJHnPb1f0X3)
+14:41:57.848 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX3rxVfibe1L0] Creating context
+14:41:57.848 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DX3rxVfibe1L0)
+14:41:57.848 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DXcBWIGoYBM5M] Creating context
+14:41:57.849 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DXcBWIGoYBM5M)
+14:41:57.849 5 [/f:206                          ] [spotify:playlist:37i9dQZF1DX70RN3TfWWJh] Creating context
+14:41:57.849 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1DX70RN3TfWWJh)
+14:41:57.849 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4CUrkGzn1VSI] Creating context
+14:41:57.849 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4CUrkGzn1VSI)
+14:41:57.849 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4nUyWRQ5Dtzm] Creating context
+14:41:57.849 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4nUyWRQ5Dtzm)
+14:41:57.849 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4uawqu1ixozc] Creating context
+14:41:57.849 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4uawqu1ixozc)
+14:41:57.853 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4oJSdHZrVjxD] Creating context
+14:41:57.853 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4oJSdHZrVjxD)
+14:41:57.853 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4yiJGrYbYs2x] Creating context
+14:41:57.853 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4yiJGrYbYs2x)
+14:41:57.853 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4sc2ckltYSJH] Creating context
+14:41:57.853 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4sc2ckltYSJH)
+14:41:57.853 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4AnYVmEEo8ws] Creating context
+14:41:57.854 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4AnYVmEEo8ws)
+14:41:57.854 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4tMADAcWkZ51] Creating context
+14:41:57.854 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4tMADAcWkZ51)
+14:41:57.854 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4nkqyD9JLS2t] Creating context
+14:41:57.854 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4nkqyD9JLS2t)
+14:41:57.854 5 [/f:206                          ] [spotify:playlist:37i9dQZF1E4y2lYBEyU5jq] Creating context
+14:41:57.854 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1E4y2lYBEyU5jq)
+14:41:57.854 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EP6YuccBxUcC1] Creating context
+14:41:57.854 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EP6YuccBxUcC1)
+14:41:57.854 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIgzSCNweQzPQ] Creating context
+14:41:57.854 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIgzSCNweQzPQ)
+14:41:57.854 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIcKISNgRDQog] Creating context
+14:41:57.854 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIcKISNgRDQog)
+14:41:57.855 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EId0rbOY3Sbbm] Creating context
+14:41:57.855 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EId0rbOY3Sbbm)
+14:41:57.855 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIfAoIM3ht61G] Creating context
+14:41:57.855 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIfAoIM3ht61G)
+14:41:57.855 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIgqwY0koJJp6] Creating context
+14:41:57.855 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIgqwY0koJJp6)
+14:41:57.855 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIdzRg9sDFEY3] Creating context
+14:41:57.855 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIdzRg9sDFEY3)
+14:41:57.855 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIfxw8oghwfcN] Creating context
+14:41:57.855 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIfxw8oghwfcN)
+14:41:57.855 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIh4zcdX2LJPS] Creating context
+14:41:57.855 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIh4zcdX2LJPS)
+14:41:57.856 5 [/f:206                          ] [spotify:playlist:37i9dQZF1EIgQnNDX2DOQP] Creating context
+14:41:57.856 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EIgQnNDX2DOQP)
+14:41:57.986 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/popcount took 451 ms
+14:41:57.986 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/collection took 458 ms
+14:41:57.986 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 451 ms
+14:41:57.999 I [/f:842                          ] collection author: Delta sync up to date
+14:41:58.016 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/extended-metadata took 481 ms
+14:41:58.072 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:58.073 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:58.114 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 399 ms
+14:41:58.115 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] 'GET' request complete
+14:41:58.115 3 [/f:1014                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]  synchronization error: Error category: http, code 404 (404 - not found)
+14:41:58.115 3 [/f:1053                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]   - list does not exist.
+14:41:58.122 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 406 ms
+14:41:58.122 5 [/f:488                          ] [spotify:playlist:2q0uB7uETYU6wSXxFcdoiz] 'DIFF' request complete
+14:41:58.123 3 [/f:1418                         ] [spotify:playlist:2q0uB7uETYU6wSXxFcdoiz] Delta-updated to revision 530,0f83f2dee6de7ddf8777785d77496960a6f5c25b
+14:41:58.154 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DX30DGof92rQX] Synchronization starting: DIFF (from revision 0,8be5d5c5445a5357ccd4a46c83b12bfe09961351,(auto: YXV0bw==)) 
+14:41:58.156 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 412 ms
+14:41:58.157 5 [/f:488                          ] [spotify:playlist:37i9dQZEVXbNG2KDcFcKOF] 'DIFF' request complete
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_ITEM_ID_ALGORITHM
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:41:58.157 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:41:58.157 5 [/f:224                          ] Add 50 tracks
+14:41:58.158 3 [/f:1506                         ] [spotify:playlist:37i9dQZEVXbNG2KDcFcKOF] Snapshot-updated to revision 843662400,000000000000000000000000000000000000656e,(auto: YXV0bw==)
+14:41:58.184 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4nUyWRQ5Dtzm] Synchronization starting: DIFF (from revision 0,58dc740b00b62f5f365d9a25f293bc761430e906,(auto: YXV0bw==)) 
+14:41:58.188 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/ads took 422 ms
+14:41:58.299 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 771 ms
+14:41:58.299 5 [/f:488                          ] [spotify:list:recents:main] 'DIFF' request complete
+14:41:58.300 3 [/f:1418                         ] [spotify:list:recents:main] Delta-updated to revision 0,0000000025a65eea5343fb04c1feb001ead65631
+14:41:58.302 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 466 ms
+14:41:58.303 5 [/f:488                          ] [spotify:playlist:6rIClZ2bwNheRWRPdjRgHw] 'DIFF' request complete
+14:41:58.303 3 [/f:1418                         ] [spotify:playlist:6rIClZ2bwNheRWRPdjRgHw] Delta-updated to revision 37,4d82f8c8a9c1d962005d8526e01cc47cad6d6f52
+14:41:58.323 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIZqq1SLQZ0z7] Synchronization starting: DIFF (from revision 0,c14202a9d23958208c26b063f1758988464b28d9,(auto: YXV0bw==)) 
+14:41:58.323 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DX11otjJ7crqp] Synchronization starting: DIFF (from revision 0,47809dd9d807b7c6c6c93206b1bb97997cb363f4,(auto: YXV0bw==)) 
+14:41:58.390 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 391 ms
+14:41:58.392 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 394 ms
+14:41:58.408 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 408 ms
+14:41:58.411 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 411 ms
+14:41:58.427 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 427 ms
+14:41:58.429 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 429 ms
+14:41:58.429 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 429 ms
+14:41:58.430 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 430 ms
+14:41:58.430 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 430 ms
+14:41:58.431 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 431 ms
+14:41:58.432 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 431 ms
+14:41:58.435 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 434 ms
+14:41:58.438 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 438 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 439 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 439 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 439 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.440 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 439 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 440 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.441 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.442 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 441 ms
+14:41:58.445 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 444 ms
+14:41:58.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 445 ms
+14:41:58.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 445 ms
+14:41:58.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 445 ms
+14:41:58.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.447 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.447 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.447 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.447 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.447 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.447 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.447 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 446 ms
+14:41:58.457 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 456 ms
+14:41:58.474 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 474 ms
+14:41:58.495 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 496 ms
+14:41:58.497 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 498 ms
+14:41:58.509 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 509 ms
+14:41:58.511 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 510 ms
+14:41:58.527 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 526 ms
+14:41:58.544 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 543 ms
+14:41:58.598 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 597 ms
+14:41:58.603 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 603 ms
+14:41:58.646 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 645 ms
+14:41:58.649 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 647 ms
+14:41:58.649 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 647 ms
+14:41:58.649 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 648 ms
+14:41:58.650 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 648 ms
+14:41:58.650 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 649 ms
+14:41:58.651 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 652 ms
+14:41:58.654 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 653 ms
+14:41:58.655 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 654 ms
+14:41:58.655 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 654 ms
+14:41:58.657 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 655 ms
+14:41:58.668 I [/f:642                          ] overriding slot=stream endpoint with http://localhost/no/thanks
+14:41:58.669 I [/f:642                          ] overriding slot=podcast-midroll-1 endpoint with http://localhost/no/thanks
+14:41:58.670 I [/f:642                          ] overriding slot=stream-user-actions endpoint with http://localhost/no/thanks
+14:41:58.671 I [/f:642                          ] overriding slot=preroll endpoint with http://localhost/no/thanks
+14:41:58.672 I [/f:642                          ] overriding slot=podcast-preroll endpoint with http://localhost/no/thanks
+14:41:58.673 I [/f:642                          ] overriding slot=podcast-midroll-2 endpoint with http://localhost/no/thanks
+14:41:58.674 I [/f:642                          ] overriding slot=podcast-midroll-3 endpoint with http://localhost/no/thanks
+14:41:58.676 I [/f:642                          ] overriding slot=podcast-midroll-4 endpoint with http://localhost/no/thanks
+14:41:58.677 I [/f:642                          ] overriding slot=podcast-midroll-5 endpoint with http://localhost/no/thanks
+14:41:58.679 I [/f:642                          ] overriding slot=podcast-postroll endpoint with http://localhost/no/thanks
+14:41:58.681 I [/f:642                          ] overriding slot=embedded-npv endpoint with http://localhost/no/thanks
+14:41:58.683 I [/f:642                          ] overriding slot=hpto endpoint with http://localhost/no/thanks
+14:41:58.729 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:41:58.782 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 596 ms
+14:41:58.782 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 781 ms
+14:41:58.782 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 781 ms
+14:41:58.782 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 781 ms
+14:41:58.782 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 781 ms
+14:41:58.782 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4nUyWRQ5Dtzm] 'DIFF' request complete
+14:41:58.782 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4nUyWRQ5Dtzm] Delta-updated to revision 0,58dc740b00b62f5f365d9a25f293bc761430e906
+14:41:58.783 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 782 ms
+14:41:58.783 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 783 ms
+14:41:58.783 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 459 ms
+14:41:58.783 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DX11otjJ7crqp] 304 NOT_MODIFIED response - nothing changed
+14:41:58.807 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E3a7fKuSzMsEu] Synchronization starting: DIFF (from revision 0,c9b5388a58952a3c99fd3098d15bc2791bb9f9d6,(auto: YXV0bw==)) 
+14:41:58.808 3 [/f:728                          ] [spotify:playlist:41G0hwfQIeEKAfdp7kFShY] Synchronization starting: DIFF (from revision 2310,be4d11ec058c0b708472107284bf595ee796f3f4,(auto: YXV0bw==)) 
+14:41:58.810 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:41:58.810 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:58.811 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:58.863 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 540 ms
+14:41:58.863 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist-permission took 862 ms
+14:41:58.864 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EIZqq1SLQZ0z7] 'DIFF' request complete
+14:41:58.864 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EIZqq1SLQZ0z7] Delta-updated to revision 0,c14202a9d23958208c26b063f1758988464b28d9
+14:41:58.892 3 [/f:728                          ] [spotify:playlist:1I8blQtLWzhPcmwvA5UBxI] Synchronization starting: DIFF (from revision 44,0ada747f3834b19ab1b49a6972843bd95e7546c1,(auto: YXV0bw==)) 
+14:41:58.946 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 791 ms
+14:41:58.946 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DX30DGof92rQX] 304 NOT_MODIFIED response - nothing changed
+14:41:58.952 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/extended-metadata took 950 ms
+14:41:58.969 3 [/f:728                          ] [spotify:playlist:1DscET4Q7zMq8ykLPihQiI] Synchronization starting: DIFF (from revision 34,26a471a62d167bceaba2bc721a4ebd001ccc917c,(auto: YXV0bw==)) 
+14:41:59.076 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/extended-metadata took 1075 ms
+14:41:59.110 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/ad-logic took 856 ms
+14:41:59.209 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 401 ms
+14:41:59.210 5 [/f:488                          ] [spotify:playlist:41G0hwfQIeEKAfdp7kFShY] 'DIFF' request complete
+14:41:59.210 3 [/f:1418                         ] [spotify:playlist:41G0hwfQIeEKAfdp7kFShY] Delta-updated to revision 2310,be4d11ec058c0b708472107284bf595ee796f3f4
+14:41:59.216 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 408 ms
+14:41:59.216 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1E3a7fKuSzMsEu] 304 NOT_MODIFIED response - nothing changed
+14:41:59.230 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DWYza9Q5qYsiV] Synchronization starting: DIFF (from revision 0,d18e36397d0ef454b01a4a368e52f958a91b7dbd,(auto: YXV0bw==)) 
+14:41:59.245 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DWWOGXILUAh53] Synchronization starting: DIFF (from revision 0,8732f2cf668155cf234d0abff5ec2c85943d1499,(auto: YXV0bw==)) 
+14:41:59.295 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 402 ms
+14:41:59.296 5 [/f:488                          ] [spotify:playlist:1I8blQtLWzhPcmwvA5UBxI] 'DIFF' request complete
+14:41:59.296 3 [/f:1418                         ] [spotify:playlist:1I8blQtLWzhPcmwvA5UBxI] Delta-updated to revision 44,0ada747f3834b19ab1b49a6972843bd95e7546c1
+14:41:59.323 3 [/f:728                          ] [spotify:playlist:37i9dQZEVXbdLq9EQfKEzM] Synchronization starting: DIFF (from revision 0,7304c6bb52af07cad831f63b8e0ffca28f79657a,(auto: YXV0bw==)) 
+14:41:59.379 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 409 ms
+14:41:59.379 5 [/f:488                          ] [spotify:playlist:1DscET4Q7zMq8ykLPihQiI] 'DIFF' request complete
+14:41:59.379 3 [/f:1418                         ] [spotify:playlist:1DscET4Q7zMq8ykLPihQiI] Delta-updated to revision 34,26a471a62d167bceaba2bc721a4ebd001ccc917c
+14:41:59.400 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E381Mb0v0HNMJ] Synchronization starting: DIFF (from revision 0,ac6eebeca7d9ac6427c18300fb185dd8f759db51,(auto: YXV0bw==)) 
+14:41:59.614 5 [/f:206                          ] [spotify:playlist:37i9dQZF1CIl0ks0ynmzpD] Creating context
+14:41:59.614 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1CIl0ks0ynmzpD)
+14:41:59.638 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DX9Hx4oncfBhG] Synchronization starting: DIFF (from revision 0,90e5f36670145676271722885f338e1211b88899,(auto: YXV0bw==)) 
+14:41:59.638 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 407 ms
+14:41:59.638 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DWYza9Q5qYsiV] 304 NOT_MODIFIED response - nothing changed
+14:41:59.661 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DWYwEKCAVGtST] Synchronization starting: DIFF (from revision 0,e33c36052c97a51c6b4056a976e8bcb5ee67f3c3,(auto: YXV0bw==)) 
+14:41:59.731 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 408 ms
+14:41:59.731 5 [/f:488                          ] [spotify:playlist:37i9dQZEVXbdLq9EQfKEzM] 'DIFF' request complete
+14:41:59.731 3 [/f:1418                         ] [spotify:playlist:37i9dQZEVXbdLq9EQfKEzM] Delta-updated to revision 0,7304c6bb52af07cad831f63b8e0ffca28f79657a
+14:41:59.734 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 488 ms
+14:41:59.734 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DWWOGXILUAh53] 304 NOT_MODIFIED response - nothing changed
+14:41:59.754 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E396vdUKpRaSB] Synchronization starting: DIFF (from revision 0,c2af2653c167943e87cc984854c495b25589803c,(auto: YXV0bw==)) 
+14:41:59.754 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DWVgsJtp58d1t] Synchronization starting: DIFF (from revision 0,8c42ada7e06044581667843aa13b7e7d0ed7e2b9,(auto: YXV0bw==)) 
+14:41:59.863 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 462 ms
+14:41:59.863 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1E381Mb0v0HNMJ] 304 NOT_MODIFIED response - nothing changed
+14:41:59.892 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DX82GYcclJ3Ug] Synchronization starting: DIFF (from revision 0,ae4982724dc9761a1f4e2880db674c7cf4b1d753,(auto: YXV0bw==)) 
+14:42:00.160 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 405 ms
+14:42:00.160 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DWVgsJtp58d1t] 304 NOT_MODIFIED response - nothing changed
+14:42:00.167 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 529 ms
+14:42:00.167 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DX9Hx4oncfBhG] 304 NOT_MODIFIED response - nothing changed
+14:42:00.184 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DWW7gj0FcGEx6] Synchronization starting: DIFF (from revision 0,00af556f6b58ad7b41bc818e3a0cc77e61803598,(auto: YXV0bw==)) 
+14:42:00.199 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E35nEQ9c819zx] Synchronization starting: DIFF (from revision 0,be68e9f036ba699742d24c9ac18ed4ed38091f7a,(auto: YXV0bw==)) 
+14:42:00.206 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 544 ms
+14:42:00.206 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DWYwEKCAVGtST] 304 NOT_MODIFIED response - nothing changed
+14:42:00.222 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 467 ms
+14:42:00.222 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1E396vdUKpRaSB] 304 NOT_MODIFIED response - nothing changed
+14:42:00.230 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E36DcKx0eemhs] Synchronization starting: DIFF (from revision 0,900a14fe4adba47d0586d8442094c0bedae0b314,(auto: YXV0bw==)) 
+14:42:00.245 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E36tDFOzcQO9T] Synchronization starting: DIFF (from revision 0,80d15b5a64f7db32357fe3e7ad9630b429ff24cb,(auto: YXV0bw==)) 
+14:42:00.343 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 449 ms
+14:42:00.343 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DX82GYcclJ3Ug] 304 NOT_MODIFIED response - nothing changed
+14:42:00.369 3 [/f:728                          ] [spotify:playlist:37i9dQZEVXcVGIz8mDMsUA] Synchronization starting: DIFF (from revision 1789930800,00000000ab93f3f22799258f942dd509c516d747,(auto: YXV0bw==)) 
+14:42:00.592 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 407 ms
+14:42:00.592 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DWW7gj0FcGEx6] 304 NOT_MODIFIED response - nothing changed
+14:42:00.602 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 402 ms
+14:42:00.602 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1E35nEQ9c819zx] 304 NOT_MODIFIED response - nothing changed
+14:42:00.615 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EQncLwOalG3K7] Synchronization starting: DIFF (from revision 0,c688b1363c5c0a8bd8eab58f73ca944c4841d1ba,(auto: YXV0bw==)) 
+14:42:00.630 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4rlkYj6ItCDn] Synchronization starting: DIFF (from revision 0,61d02fc76aeb46e4eb92b407fad3587104f6f0f4,(auto: YXV0bw==)) 
+14:42:00.636 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 405 ms
+14:42:00.636 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1E36DcKx0eemhs] 304 NOT_MODIFIED response - nothing changed
+14:42:00.647 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 401 ms
+14:42:00.647 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1E36tDFOzcQO9T] 304 NOT_MODIFIED response - nothing changed
+14:42:00.660 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EQnsJ0xmvpihE] Synchronization starting: DIFF (from revision 0,e79e81bca019938857c17a29923ed0db9b478d3b,(auto: YXV0bw==)) 
+14:42:00.676 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EQt8VxTH7fPID] Synchronization starting: DIFF (from revision 0,fe304e021d328d32f0b2956d6f7742a1274c77ab,(auto: YXV0bw==)) 
+14:42:00.847 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 477 ms
+14:42:00.848 5 [/f:488                          ] [spotify:playlist:37i9dQZEVXcVGIz8mDMsUA] 'DIFF' request complete
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_ITEM_ID_ALGORITHM
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:42:00.848 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:42:00.848 5 [/f:224                          ] Add 30 tracks
+14:42:00.849 3 [/f:1506                         ] [spotify:playlist:37i9dQZEVXcVGIz8mDMsUA] Snapshot-updated to revision 1789930800,00000000ab93f3f22799258f942dd509c516d747,(auto: YXV0bw==)
+14:42:00.876 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EQqedj0y9Uwvu] Synchronization starting: DIFF (from revision 0,f29b139538c52a9097c511d15d5db27c561a8702,(auto: YXV0bw==)) 
+14:42:01.031 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 415 ms
+14:42:01.031 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EQncLwOalG3K7] 'DIFF' request complete
+14:42:01.031 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EQncLwOalG3K7] Delta-updated to revision 0,c688b1363c5c0a8bd8eab58f73ca944c4841d1ba
+14:42:01.041 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 410 ms
+14:42:01.041 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4rlkYj6ItCDn] 'DIFF' request complete
+14:42:01.041 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4rlkYj6ItCDn] Delta-updated to revision 0,61d02fc76aeb46e4eb92b407fad3587104f6f0f4
+14:42:01.060 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EVKuMoAJjoTIw] Synchronization starting: DIFF (from revision 0,fe161c15570311af183079756a31f96fe03560eb,(auto: YXV0bw==)) 
+14:42:01.073 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4BklxwcWYhxG] Synchronization starting: DIFF (from revision 0,6a96d738b3a857665ac29b0718adc8d1b3f516d2,(auto: YXV0bw==)) 
+14:42:01.073 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 412 ms
+14:42:01.073 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EQnsJ0xmvpihE] 'DIFF' request complete
+14:42:01.073 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EQnsJ0xmvpihE] Delta-updated to revision 0,e79e81bca019938857c17a29923ed0db9b478d3b
+14:42:01.083 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 406 ms
+14:42:01.083 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EQt8VxTH7fPID] 'DIFF' request complete
+14:42:01.083 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EQt8VxTH7fPID] Delta-updated to revision 0,fe304e021d328d32f0b2956d6f7742a1274c77ab
+14:42:01.106 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EVHSXhJvOIrqV] Synchronization starting: DIFF (from revision 0,90b36ec2b9cf26a1b36c19b31f829dcdc213d72f,(auto: YXV0bw==)) 
+14:42:01.106 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EQcAnxYY2ZXzJ] Synchronization starting: DIFF (from revision 0,6499c1f387666773719c5e7f73f404127b632c1d,(auto: YXV0bw==)) 
+14:42:01.326 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 449 ms
+14:42:01.326 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EQqedj0y9Uwvu] 'DIFF' request complete
+14:42:01.326 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EQqedj0y9Uwvu] Delta-updated to revision 0,f29b139538c52a9097c511d15d5db27c561a8702
+14:42:01.353 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EQrDvAYlo322B] Synchronization starting: DIFF (from revision 0,ee28470bc9390c3c9124c902012c6821bb08de15,(auto: YXV0bw==)) 
+14:42:01.483 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 409 ms
+14:42:01.484 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4BklxwcWYhxG] 'DIFF' request complete
+14:42:01.484 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4BklxwcWYhxG] Delta-updated to revision 0,6a96d738b3a857665ac29b0718adc8d1b3f516d2
+14:42:01.507 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIY2tze58neCn] Synchronization starting: DIFF (from revision 0,c7148f7df17fd405c7d3e2ec2af179194bb0041c,(auto: YXV0bw==)) 
+14:42:01.520 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 413 ms
+14:42:01.520 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EVHSXhJvOIrqV] 'DIFF' request complete
+14:42:01.520 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EVHSXhJvOIrqV] Delta-updated to revision 0,90b36ec2b9cf26a1b36c19b31f829dcdc213d72f
+14:42:01.522 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 414 ms
+14:42:01.522 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EQcAnxYY2ZXzJ] 'DIFF' request complete
+14:42:01.522 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EQcAnxYY2ZXzJ] Delta-updated to revision 0,6499c1f387666773719c5e7f73f404127b632c1d
+14:42:01.554 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4yleuWstyUDt] Synchronization starting: DIFF (from revision 0,71b5c9cd975c9351362eacbdff733653e1d5a91f,(auto: YXV0bw==)) 
+14:42:01.554 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4y2lYBEyU5jq] Synchronization starting: DIFF (from revision 0,cd28833136c27d1a6a8b1ba4e2c6710cfaf64b9b,(auto: YXV0bw==)) 
+14:42:01.561 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 500 ms
+14:42:01.561 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EVKuMoAJjoTIw] 'DIFF' request complete
+14:42:01.561 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EVKuMoAJjoTIw] Delta-updated to revision 0,fe161c15570311af183079756a31f96fe03560eb
+14:42:01.584 I [/f:238                          ] Received notification for a new pubsub connection, initiating a delta.
+14:42:01.584 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4ytpt0Iot0bJ] Synchronization starting: DIFF (from revision 0,0593453b23ed03ef747b1842cc20cc8ab51ac6e7,(auto: YXV0bw==)) 
+14:42:01.764 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 411 ms
+14:42:01.764 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EQrDvAYlo322B] 'DIFF' request complete
+14:42:01.764 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EQrDvAYlo322B] Delta-updated to revision 0,ee28470bc9390c3c9124c902012c6821bb08de15
+14:42:01.785 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4oee5QSbfqLN] Synchronization starting: DIFF (from revision 0,fb117b2f8ab9c592125124d7e248cd8536015990,(auto: YXV0bw==)) 
+14:42:01.920 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 412 ms
+14:42:01.920 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EIY2tze58neCn] 'DIFF' request complete
+14:42:01.920 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EIY2tze58neCn] Delta-updated to revision 0,c7148f7df17fd405c7d3e2ec2af179194bb0041c
+14:42:01.954 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4Ap1Xw6vUfw7] Synchronization starting: DIFF (from revision 0,1eee46a93d090041226cd0e0714ccaea79878939,(auto: YXV0bw==)) 
+14:42:01.976 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 421 ms
+14:42:01.976 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4yleuWstyUDt] 'DIFF' request complete
+14:42:01.976 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4yleuWstyUDt] Delta-updated to revision 0,71b5c9cd975c9351362eacbdff733653e1d5a91f
+14:42:01.979 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/offline took 394 ms
+14:42:01.998 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4yz33MiS52aA] Synchronization starting: DIFF (from revision 0,3b0c92753def894e5578ce7a13f18465ad87fc1e,(auto: YXV0bw==)) 
+14:42:01.998 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 413 ms
+14:42:01.999 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4ytpt0Iot0bJ] 'DIFF' request complete
+14:42:01.999 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4ytpt0Iot0bJ] Delta-updated to revision 0,0593453b23ed03ef747b1842cc20cc8ab51ac6e7
+14:42:02.022 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4v33tCHOMIca] Synchronization starting: DIFF (from revision 0,3ddcfbc10232741f6ad780469bb87d5c57eabac2,(auto: YXV0bw==)) 
+14:42:02.022 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 468 ms
+14:42:02.023 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4y2lYBEyU5jq] 'DIFF' request complete
+14:42:02.023 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4y2lYBEyU5jq] Delta-updated to revision 0,cd28833136c27d1a6a8b1ba4e2c6710cfaf64b9b
+14:42:02.046 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4xlXmVqy6AU7] Synchronization starting: DIFF (from revision 0,70db3ed4d18b5711f477f7c627fefc8ef3b53b38,(auto: YXV0bw==)) 
+14:42:02.232 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 446 ms
+14:42:02.232 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4oee5QSbfqLN] 'DIFF' request complete
+14:42:02.232 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4oee5QSbfqLN] Delta-updated to revision 0,fb117b2f8ab9c592125124d7e248cd8536015990
+14:42:02.261 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4xWV26WHcCud] Synchronization starting: DIFF (from revision 0,7173a4b62c541b9b199b2b85b1926ace8f7d0ba7,(auto: YXV0bw==)) 
+14:42:02.411 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 412 ms
+14:42:02.412 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4yz33MiS52aA] 'DIFF' request complete
+14:42:02.412 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4yz33MiS52aA] Delta-updated to revision 0,3b0c92753def894e5578ce7a13f18465ad87fc1e
+14:42:02.445 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4zC3419LU24m] Synchronization starting: DIFF (from revision 0,d118276dc978c32835ec710f6c180dbb742bb6b5,(auto: YXV0bw==)) 
+14:42:02.540 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 493 ms
+14:42:02.540 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4xlXmVqy6AU7] 'DIFF' request complete
+14:42:02.540 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4xlXmVqy6AU7] Delta-updated to revision 0,70db3ed4d18b5711f477f7c627fefc8ef3b53b38
+14:42:02.558 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 534 ms
+14:42:02.558 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4v33tCHOMIca] 'DIFF' request complete
+14:42:02.558 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4v33tCHOMIca] Delta-updated to revision 0,3ddcfbc10232741f6ad780469bb87d5c57eabac2
+14:42:02.562 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DZ06evO3n0Aus] Synchronization starting: DIFF (from revision 0,b8ac4eb22a3bf12907927fcc18b2d8cbba469997,(auto: YXV0bw==)) 
+14:42:02.562 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 606 ms
+14:42:02.562 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4Ap1Xw6vUfw7] 'DIFF' request complete
+14:42:02.562 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4Ap1Xw6vUfw7] Delta-updated to revision 0,1eee46a93d090041226cd0e0714ccaea79878939
+14:42:02.583 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DXcZDD7cfEKhW] Synchronization starting: DIFF (from revision 0,7ade0f2fa8b9c769e7a5464cda0b0abf6c6b83f6,(auto: YXV0bw==)) 
+14:42:02.583 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DWSJHnPb1f0X3] Synchronization starting: DIFF (from revision 0,20baf378e5b99439c34d5221aad1c23e2fd57cbc,(auto: YXV0bw==)) 
+14:42:02.770 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 508 ms
+14:42:02.770 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4xWV26WHcCud] 'DIFF' request complete
+14:42:02.770 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4xWV26WHcCud] Delta-updated to revision 0,7173a4b62c541b9b199b2b85b1926ace8f7d0ba7
+14:42:02.798 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DX3rxVfibe1L0] Synchronization starting: DIFF (from revision 0,5781e7f6d63da691865a6704ea425a0632c8d636,(auto: YXV0bw==)) 
+14:42:02.860 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 414 ms
+14:42:02.860 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4zC3419LU24m] 'DIFF' request complete
+14:42:02.860 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4zC3419LU24m] Delta-updated to revision 0,d118276dc978c32835ec710f6c180dbb742bb6b5
+14:42:02.890 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DXcBWIGoYBM5M] Synchronization starting: DIFF (from revision 0,56aeae0a64d6b2f5c17e3e821f9e20b49916a672,(auto: YXV0bw==)) 
+14:42:02.982 I [/f:2769                         ] Update! reason: offline2-client-state-updated, flags: 0x00
+14:42:02.988 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 425 ms
+14:42:02.988 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 404 ms
+14:42:02.988 5 [/f:488                          ] [spotify:playlist:37i9dQZF1DZ06evO3n0Aus] 'DIFF' request complete
+14:42:02.989 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1DZ06evO3n0Aus] Delta-updated to revision 0,b8ac4eb22a3bf12907927fcc18b2d8cbba469997
+14:42:02.989 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DXcZDD7cfEKhW] 304 NOT_MODIFIED response - nothing changed
+14:42:02.992 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 408 ms
+14:42:02.993 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DWSJHnPb1f0X3] 304 NOT_MODIFIED response - nothing changed
+14:42:03.013 3 [/f:728                          ] [spotify:playlist:37i9dQZF1DX70RN3TfWWJh] Synchronization starting: DIFF (from revision 0,afe3ed3df3dab0fb6d30cfdc620fec70b3aec89f,(auto: YXV0bw==)) 
+14:42:03.013 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4CUrkGzn1VSI] Synchronization starting: DIFF (from revision 0,211d1c1f8c08f16daeb6f061a89f6df9f86cd564,(auto: YXV0bw==)) 
+14:42:03.013 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4uawqu1ixozc] Synchronization starting: DIFF (from revision 0,546ef8b2553ae46d32ef3b1d9a769949efd8c38b,(auto: YXV0bw==)) 
+14:42:03.243 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 444 ms
+14:42:03.243 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DX3rxVfibe1L0] 304 NOT_MODIFIED response - nothing changed
+14:42:03.275 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4oJSdHZrVjxD] Synchronization starting: DIFF (from revision 0,ea428d8dbb61613bd9941afb8751af49339d28b2,(auto: YXV0bw==)) 
+14:42:03.298 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 407 ms
+14:42:03.298 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DXcBWIGoYBM5M] 304 NOT_MODIFIED response - nothing changed
+14:42:03.321 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4yiJGrYbYs2x] Synchronization starting: DIFF (from revision 0,75b63fc4d0b960fdf03a15238deebb5881dc9ab5,(auto: YXV0bw==)) 
+14:42:03.419 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 405 ms
+14:42:03.419 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1DX70RN3TfWWJh] 304 NOT_MODIFIED response - nothing changed
+14:42:03.442 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4sc2ckltYSJH] Synchronization starting: DIFF (from revision 0,36d3d8448f1686510e36cf08ea673b4803428159,(auto: YXV0bw==)) 
+14:42:03.442 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 428 ms
+14:42:03.442 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4uawqu1ixozc] 'DIFF' request complete
+14:42:03.442 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4uawqu1ixozc] Delta-updated to revision 0,546ef8b2553ae46d32ef3b1d9a769949efd8c38b
+14:42:03.446 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 432 ms
+14:42:03.446 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4CUrkGzn1VSI] 'DIFF' request complete
+14:42:03.446 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4CUrkGzn1VSI] Delta-updated to revision 0,211d1c1f8c08f16daeb6f061a89f6df9f86cd564
+14:42:03.475 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4AnYVmEEo8ws] Synchronization starting: DIFF (from revision 0,f3c52d44ebd5a377cdc0d1d29a588ec0992d4f0b,(auto: YXV0bw==)) 
+14:42:03.475 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EP6YuccBxUcC1] Synchronization starting: DIFF (from revision 0,7f0cc73bdadcaa8edfec9d7b2865e1bc297b2db6,(auto: YXV0bw==)) 
+14:42:03.682 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 407 ms
+14:42:03.683 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4oJSdHZrVjxD] 'DIFF' request complete
+14:42:03.683 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4oJSdHZrVjxD] Delta-updated to revision 0,ea428d8dbb61613bd9941afb8751af49339d28b2
+14:42:03.706 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4tMADAcWkZ51] Synchronization starting: DIFF (from revision 0,8cb8ab3e5a309d16bc9d0e13668254ec8d1b6530,(auto: YXV0bw==)) 
+14:42:03.729 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 408 ms
+14:42:03.729 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4yiJGrYbYs2x] 'DIFF' request complete
+14:42:03.730 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4yiJGrYbYs2x] Delta-updated to revision 0,75b63fc4d0b960fdf03a15238deebb5881dc9ab5
+14:42:03.752 3 [/f:728                          ] [spotify:playlist:37i9dQZF1E4nkqyD9JLS2t] Synchronization starting: DIFF (from revision 0,7253443c8987369cf37fb8fe918dc4a7eaedd862,(auto: YXV0bw==)) 
+14:42:03.861 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 417 ms
+14:42:03.861 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4sc2ckltYSJH] 'DIFF' request complete
+14:42:03.861 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4sc2ckltYSJH] Delta-updated to revision 0,36d3d8448f1686510e36cf08ea673b4803428159
+14:42:03.890 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIgzSCNweQzPQ] Synchronization starting: DIFF (from revision 0,51cf644a83f6f4f461a2688400e248677a2d57f7,(auto: YXV0bw==)) 
+14:42:03.890 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 414 ms
+14:42:03.890 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EP6YuccBxUcC1] 'DIFF' request complete
+14:42:03.890 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1EP6YuccBxUcC1] Delta-updated to revision 0,7f0cc73bdadcaa8edfec9d7b2865e1bc297b2db6
+14:42:03.902 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 427 ms
+14:42:03.902 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4AnYVmEEo8ws] 'DIFF' request complete
+14:42:03.902 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4AnYVmEEo8ws] Delta-updated to revision 0,f3c52d44ebd5a377cdc0d1d29a588ec0992d4f0b
+14:42:03.921 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIcKISNgRDQog] Synchronization starting: DIFF (from revision 0,85785ba731c025d30a87e8866c8b35cd8bfbc07f,(auto: YXV0bw==)) 
+14:42:03.936 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EId0rbOY3Sbbm] Synchronization starting: DIFF (from revision 0,5905d422d085a5bff3ac54495304adc708a3667e,(auto: YXV0bw==)) 
+14:42:04.115 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 409 ms
+14:42:04.116 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4tMADAcWkZ51] 'DIFF' request complete
+14:42:04.116 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4tMADAcWkZ51] Delta-updated to revision 0,8cb8ab3e5a309d16bc9d0e13668254ec8d1b6530
+14:42:04.136 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIfAoIM3ht61G] Synchronization starting: DIFF (from revision 0,2322517b7ea418fc68060710bab72702db6bc4e1,(auto: YXV0bw==)) 
+14:42:04.161 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 409 ms
+14:42:04.161 5 [/f:488                          ] [spotify:playlist:37i9dQZF1E4nkqyD9JLS2t] 'DIFF' request complete
+14:42:04.161 3 [/f:1418                         ] [spotify:playlist:37i9dQZF1E4nkqyD9JLS2t] Delta-updated to revision 0,7253443c8987369cf37fb8fe918dc4a7eaedd862
+14:42:04.183 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIgqwY0koJJp6] Synchronization starting: DIFF (from revision 0,2382905781a09af739edfa7fb2c2f78788676056,(auto: YXV0bw==)) 
+14:42:04.326 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 434 ms
+14:42:04.326 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIgzSCNweQzPQ] 304 NOT_MODIFIED response - nothing changed
+14:42:04.333 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 412 ms
+14:42:04.334 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIcKISNgRDQog] 304 NOT_MODIFIED response - nothing changed
+14:42:04.338 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 401 ms
+14:42:04.338 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EId0rbOY3Sbbm] 304 NOT_MODIFIED response - nothing changed
+14:42:04.351 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIdzRg9sDFEY3] Synchronization starting: DIFF (from revision 0,cd559b866724ccf8aaf386194c229b502aa94b84,(auto: YXV0bw==)) 
+14:42:04.356 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIfxw8oghwfcN] Synchronization starting: DIFF (from revision 0,9fae6561c036a025d1e4cb0a871cdd16c868d550,(auto: YXV0bw==)) 
+14:42:04.362 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIh4zcdX2LJPS] Synchronization starting: DIFF (from revision 0,29cb691eb3aefdd43ab5a56b2b01374f555890a1,(auto: YXV0bw==)) 
+14:42:04.543 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 406 ms
+14:42:04.543 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIfAoIM3ht61G] 304 NOT_MODIFIED response - nothing changed
+14:42:04.567 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EIgQnNDX2DOQP] Synchronization starting: DIFF (from revision 0,c2e9486d3ee3459f2257ddaca9b597d12fb7a54d,(auto: YXV0bw==)) 
+14:42:04.603 I [/f:952                          ] Enumerated files in cache. Permanent: keep 0 files, 0 bytes; remove 0 files, 0 bytes. Volatile: keep 821 files, 530793812 bytes; remove 0 files, 0 bytes. Missing: 0 files, 0 bytes
+14:42:04.604 I [/f:3862                         ] Storage has been cleaned
+14:42:04.622 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 438 ms
+14:42:04.622 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIgqwY0koJJp6] 304 NOT_MODIFIED response - nothing changed
+14:42:04.767 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 410 ms
+14:42:04.768 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIfxw8oghwfcN] 304 NOT_MODIFIED response - nothing changed
+14:42:04.813 I [/f:281                          ] Found 1 collection items out of 732 checked that need to be indexed (15ms).
+14:42:04.813 I [/f:283                          ] Completed a full check of the collection index.
+14:42:04.814 I [/f:281                          ] Found 0 collection items out of 0 checked that need to be indexed (0ms).
+14:42:04.814 I [/f:283                          ] Completed a full check of the collection index.
+14:42:04.814 I [/f:281                          ] Found 0 collection items out of 0 checked that need to be indexed (0ms).
+14:42:04.814 I [/f:283                          ] Completed a full check of the collection index.
+14:42:04.814 I [/f:54                           ] Index track links count: 1
+14:42:04.814 I [/f:55                           ] Index album links count: 0
+14:42:04.875 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 523 ms
+14:42:04.875 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIdzRg9sDFEY3] 304 NOT_MODIFIED response - nothing changed
+14:42:04.901 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 537 ms
+14:42:04.901 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIh4zcdX2LJPS] 304 NOT_MODIFIED response - nothing changed
+14:42:04.972 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 404 ms
+14:42:04.972 3 [/f:1663                         ] [spotify:playlist:37i9dQZF1EIgQnNDX2DOQP] 304 NOT_MODIFIED response - nothing changed
+14:42:05.029 I [/f:642                          ] overriding slot=stream endpoint with http://localhost/no/thanks
+14:42:05.029 I [/f:642                          ] overriding slot=podcast-midroll-1 endpoint with http://localhost/no/thanks
+14:42:05.029 I [/f:642                          ] overriding slot=stream-user-actions endpoint with http://localhost/no/thanks
+14:42:05.030 I [/f:642                          ] overriding slot=preroll endpoint with http://localhost/no/thanks
+14:42:05.030 I [/f:642                          ] overriding slot=podcast-preroll endpoint with http://localhost/no/thanks
+14:42:05.030 I [/f:642                          ] overriding slot=podcast-midroll-2 endpoint with http://localhost/no/thanks
+14:42:05.030 I [/f:642                          ] overriding slot=podcast-midroll-3 endpoint with http://localhost/no/thanks
+14:42:05.030 I [/f:642                          ] overriding slot=podcast-midroll-4 endpoint with http://localhost/no/thanks
+14:42:05.031 I [/f:642                          ] overriding slot=podcast-midroll-5 endpoint with http://localhost/no/thanks
+14:42:05.031 I [/f:642                          ] overriding slot=podcast-postroll endpoint with http://localhost/no/thanks
+14:42:05.031 I [/f:642                          ] overriding slot=embedded-npv endpoint with http://localhost/no/thanks
+14:42:05.031 I [/f:642                          ] overriding slot=hpto endpoint with http://localhost/no/thanks
+14:42:07.665 I [/f:281                          ] Found 0 collection items out of 0 checked that need to be indexed (0ms).
+14:42:07.665 I [/f:283                          ] Completed a full check of the collection index.
+14:42:12.432 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:1xQysoqoHfiTshje0ChRX9)
+14:42:12.433 3 [/f:728                          ] [spotify:playlist:1xQysoqoHfiTshje0ChRX9] Synchronization starting: DIFF (from revision 568,e9bbc3c0fb8725239ccdfbe1ad5f8b35265ccf3f,(auto: YXV0bw==)) 
+14:42:12.434 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:2e2PE0NvsKKdm2J5nRBEDX)
+14:42:12.434 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZEVXcXHWVVT0lfDq)
+14:42:12.434 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:5fgT1LmsXzLsSGoN7thSWA)
+14:42:12.434 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:3WbWEAVAm1ezeNlaxZH9yq)
+14:42:12.434 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1FoyQGyinuuvRu)
+14:42:12.434 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:2G1Y020ghhNp88KJXvISsJ)
+14:42:12.434 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:4phZ2kFtnXumFOAMYvMBWH)
+14:42:12.447 3 [/f:728                          ] [spotify:playlist:3WbWEAVAm1ezeNlaxZH9yq] Synchronization starting: DIFF (from revision 2,d634044a1b280bf825b035c9a3e23e0706f6f9bf,(auto: YXV0bw==)) 
+14:42:12.449 3 [/f:728                          ] [spotify:playlist:37i9dQZEVXcXHWVVT0lfDq] Synchronization starting: DIFF (from revision 696488224,00000000b56d9e83bdcc8d0e84e3948335d0828d,(auto: YXV0bw==)) 
+14:42:12.450 3 [/f:728                          ] [spotify:playlist:5fgT1LmsXzLsSGoN7thSWA] Synchronization starting: DIFF (from revision 2,4edf85c7ec271e56b9d61e9eb969133be1fe9b7d,(auto: YXV0bw==)) 
+14:42:12.452 3 [/f:728                          ] [spotify:playlist:2e2PE0NvsKKdm2J5nRBEDX] Synchronization starting: DIFF (from revision 129,4880ce8bca0dde3e482854e762b1bdeab30a86ac,(auto: YXV0bw==)) 
+14:42:12.553 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:42:12.613 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:42:12.619 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:42:12.872 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 398 ms
+14:42:12.872 5 [/f:488                          ] [spotify:playlist:3WbWEAVAm1ezeNlaxZH9yq] 'DIFF' request complete
+14:42:12.872 3 [/f:1418                         ] [spotify:playlist:3WbWEAVAm1ezeNlaxZH9yq] Delta-updated to revision 2,d634044a1b280bf825b035c9a3e23e0706f6f9bf
+14:42:12.875 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 401 ms
+14:42:12.875 5 [/f:488                          ] [spotify:playlist:5fgT1LmsXzLsSGoN7thSWA] 'DIFF' request complete
+14:42:12.875 3 [/f:1418                         ] [spotify:playlist:5fgT1LmsXzLsSGoN7thSWA] Delta-updated to revision 2,4edf85c7ec271e56b9d61e9eb969133be1fe9b7d
+14:42:12.876 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 402 ms
+14:42:12.876 5 [/f:488                          ] [spotify:playlist:1xQysoqoHfiTshje0ChRX9] 'DIFF' request complete
+14:42:12.876 3 [/f:1418                         ] [spotify:playlist:1xQysoqoHfiTshje0ChRX9] Delta-updated to revision 568,e9bbc3c0fb8725239ccdfbe1ad5f8b35265ccf3f
+14:42:12.885 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 411 ms
+14:42:12.885 5 [/f:488                          ] [spotify:playlist:2e2PE0NvsKKdm2J5nRBEDX] 'DIFF' request complete
+14:42:12.885 3 [/f:1418                         ] [spotify:playlist:2e2PE0NvsKKdm2J5nRBEDX] Delta-updated to revision 129,4880ce8bca0dde3e482854e762b1bdeab30a86ac
+14:42:12.899 3 [/f:728                          ] [spotify:playlist:37i9dQZF1FoyQGyinuuvRu] Synchronization starting: DIFF (from revision 696488224,0000000088b0207386919eab8214bc8dede2d5ec,(auto: YXV0bw==)) 
+14:42:12.899 3 [/f:728                          ] [spotify:playlist:2G1Y020ghhNp88KJXvISsJ] Synchronization starting: DIFF (from revision 769,c815853b32c797263d3a98059b8118d2b29c249c,(auto: YXV0bw==)) 
+14:42:12.899 3 [/f:728                          ] [spotify:playlist:4phZ2kFtnXumFOAMYvMBWH] Synchronization starting: DIFF (from revision 2047,e0831a7d9d72693c2cd5846f0ef1447678358405,(auto: YXV0bw==)) 
+14:42:12.944 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 470 ms
+14:42:12.945 5 [/f:488                          ] [spotify:playlist:37i9dQZEVXcXHWVVT0lfDq] 'DIFF' request complete
+14:42:12.945 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:42:12.945 5 [/f:360                          ] Removed playlist attribute: LIST_COLLABORATIVE
+14:42:12.945 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:42:12.945 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:42:12.945 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:42:12.945 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:42:12.946 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:42:12.946 5 [/f:360                          ] Removed playlist attribute: LIST_ITEM_ID_ALGORITHM
+14:42:12.946 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:42:12.946 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:42:12.946 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:42:12.946 5 [/f:224                          ] Add 100 tracks
+14:42:12.947 3 [/f:1506                         ] [spotify:playlist:37i9dQZEVXcXHWVVT0lfDq] Snapshot-updated to revision 696488227,000000003359aeaa94421203b9940b361d41a15b,(auto: YXV0bw==)
+14:42:13.135 5 [/f:197                          ] PlaylistBackendManager::scheduleListSynchronization(spotify:playlist:37i9dQZF1EYkqdzj48dyYq)
+14:42:13.298 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 398 ms
+14:42:13.298 5 [/f:488                          ] [spotify:playlist:4phZ2kFtnXumFOAMYvMBWH] 'DIFF' request complete
+14:42:13.298 3 [/f:1418                         ] [spotify:playlist:4phZ2kFtnXumFOAMYvMBWH] Delta-updated to revision 2047,e0831a7d9d72693c2cd5846f0ef1447678358405
+14:42:13.299 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 399 ms
+14:42:13.299 5 [/f:488                          ] [spotify:playlist:2G1Y020ghhNp88KJXvISsJ] 'DIFF' request complete
+14:42:13.299 3 [/f:1418                         ] [spotify:playlist:2G1Y020ghhNp88KJXvISsJ] Delta-updated to revision 769,c815853b32c797263d3a98059b8118d2b29c249c
+14:42:13.354 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 454 ms
+14:42:13.354 5 [/f:488                          ] [spotify:playlist:37i9dQZF1FoyQGyinuuvRu] 'DIFF' request complete
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_PICTURE
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_COLLABORATIVE
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_PL3_VERSION
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_DELETED_BY_OWNER
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_CLIENT_ID
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_SEQUENCE_CONTEXT_TEMPLATE
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_AI_CURATION_REFERENCE_ID
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_ITEM_ID_ALGORITHM
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_RECOVERABLE
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_IS_USER_CREATED
+14:42:13.355 5 [/f:360                          ] Removed playlist attribute: LIST_SORT_MANIFEST
+14:42:13.355 5 [/f:224                          ] Add 100 tracks
+14:42:13.355 3 [/f:1506                         ] [spotify:playlist:37i9dQZF1FoyQGyinuuvRu] Snapshot-updated to revision 696488227,0000000057d14eb7a1d9731b50d5af0e82c39ef0,(auto: YXV0bw==)
+14:42:21.098 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+14:42:21.509 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 410 ms
+14:42:21.509 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] 'GET' request complete
+14:42:21.509 3 [/f:1014                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]  synchronization error: Error category: http, code 404 (404 - not found)
+14:42:21.509 3 [/f:1053                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]   - list does not exist.
+14:42:24.614 I [/f:3336                         ] Pruning unused resources
+14:42:24.614 I [/f:3428                         ] Nothing to prune
+14:42:25.106 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/user-customization-service took 399 ms
+14:42:25.107 I [/f:1630                         ] No product state was retrieved, unable to update
+14:42:25.482 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 422 ms
+14:42:27.547 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.259ms, total: 16.259ms.
+14:42:55.472 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 408 ms
+14:42:57.548 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.190ms, total: 32.449ms.
+14:43:02.563 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+14:43:02.924 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 360 ms
+14:43:02.924 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] 'GET' request complete
+14:43:02.924 3 [/f:1014                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]  synchronization error: Error category: http, code 404 (404 - not found)
+14:43:02.924 3 [/f:1053                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]   - list does not exist.
+14:43:02.993 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:43:27.548 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.014ms, total: 48.463ms.
+14:43:57.559 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.125ms, total: 64.588ms.
+14:44:02.994 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:44:07.486 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:44:07.486 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:44:07.486 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:44:07.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:07.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:07.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:07.589 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:07.590 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:08.494 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:44:08.494 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:44:08.494 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:44:08.602 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:08.602 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:08.603 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:08.603 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:08.603 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:44:27.325 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+14:44:27.556 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.273ms, total: 80.861ms.
+14:44:27.705 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 379 ms
+14:44:27.705 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] 'GET' request complete
+14:44:27.705 3 [/f:1014                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]  synchronization error: Error category: http, code 404 (404 - not found)
+14:44:27.705 3 [/f:1053                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]   - list does not exist.
+14:44:53.767 D [/f:573                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' updated with TTL=60 seconds, host='Ultron.local', IPs='26.105.24.126', port='52065', cpath='/zc' (total 1 device(s))
+14:44:57.592 I [/f:239                          ] ConcurrentCollector ran mark cycle for 49.727ms, total: 130.588ms.
+14:45:03.002 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:45:27.558 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.205ms, total: 146.793ms.
+14:45:57.548 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.213ms, total: 163.006ms.
+14:46:00.285 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:46:00.286 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:46:00.286 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:46:00.400 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:00.400 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:00.401 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:00.401 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:00.401 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:01.295 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:46:01.295 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:46:01.295 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:46:01.399 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:01.399 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:01.399 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:01.399 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:01.399 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:03.013 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:46:27.551 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.432ms, total: 179.438ms.
+14:46:53.771 D [/f:573                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' updated with TTL=60 seconds, host='Ultron.local', IPs='26.105.24.126', port='52065', cpath='/zc' (total 1 device(s))
+14:46:53.771 D [/f:310                          ] ConnectZeroconfLoginProtocol: starting getInfo for Spotify Desktop Launcher._spotify-connect._tcp.local
+14:46:53.771 D [/f:78                           ] ConnectZeroconfLoginProtocol: getInfo http://26.105.24.126:52065/zc?action=getInfo&version=2.12.0
+
+14:46:53.897 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:53.897 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:53.897 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:53.898 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:53.898 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:46:55.418 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 722 ms
+14:46:55.478 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 423 ms
+14:46:57.551 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.260ms, total: 195.698ms.
+14:47:03.018 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:47:25.731 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 678 ms
+14:47:27.544 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.215ms, total: 211.913ms.
+14:47:38.153 3 [/f:728                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+14:47:38.948 I [/f:263                          ] High request latency: https://gew1-spclient.spotify.com:443/playlist took 795 ms
+14:47:38.948 5 [/f:488                          ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq] 'GET' request complete
+14:47:38.948 3 [/f:1014                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]  synchronization error: Error category: http, code 404 (404 - not found)
+14:47:38.948 3 [/f:1053                         ] [spotify:playlist:37i9dQZF1EYkqdzj48dyYq]   - list does not exist.
+14:47:57.550 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.205ms, total: 228.118ms.
+14:48:03.031 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:48:17.558 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:17.558 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:17.558 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:17.667 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:17.667 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:17.667 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:17.667 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:17.667 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:18.566 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:18.566 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:18.566 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:18.681 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:18.681 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:18.681 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:18.682 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:18.682 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:27.548 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.501ms, total: 244.619ms.
+14:48:37.916 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:37.917 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:37.917 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:38.020 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:38.020 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:38.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:38.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:38.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:38.919 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:38.920 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:38.920 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:48:39.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:39.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:39.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:39.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:39.021 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:48:53.759 D [/f:573                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' updated with TTL=60 seconds, host='Ultron.local', IPs='26.105.24.126', port='52065', cpath='/zc' (total 1 device(s))
+14:48:55.477 I [/f:263                          ] High request latency: https://spclient.wg.spotify.com/gabo-receiver-service took 425 ms
+14:48:57.558 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.145ms, total: 260.764ms.
+14:49:03.044 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:49:27.558 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.385ms, total: 277.149ms.
+14:49:57.554 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.305ms, total: 293.454ms.
+14:50:03.047 I [/f:2769                         ] Update! reason: periodic, flags: 0x00
+14:50:27.552 I [/f:239                          ] ConcurrentCollector ran mark cycle for 16.209ms, total: 309.663ms.
+14:50:30.464 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:50:30.465 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:50:30.465 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:50:30.572 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:30.572 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:30.572 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:30.572 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:30.573 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:31.481 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:50:31.482 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:50:31.482 D [/f:628                          ] Discovery device 'Spotify Desktop Launcher._spotify-connect._tcp.local' removed due to missing or expired address records (host Ultron.local, total 1 device(s))
+14:50:31.585 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:31.585 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:31.585 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:31.585 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
+14:50:31.585 D [/f:436                          ] CastTransportRouter::CastSDK -> devices requested (count=0)
